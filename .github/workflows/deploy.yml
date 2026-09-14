@@ -35,7 +35,7 @@ jobs:
 
       - name: Build Flet Web App
         run: |
-          flet build web --yes
+          flet build web --yes --base-url /Teku_Ai_Assistant/ --route-url-strategy hash
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
