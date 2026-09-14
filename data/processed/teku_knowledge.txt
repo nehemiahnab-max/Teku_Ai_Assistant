@@ -1,0 +1,3242 @@
+
+
+===== PAGE 1 =====
+
+TEKU AI Assistant — Master Knowledge Book • Project reference
+Page 1
+TEOFILO KISANJI UNIVERSITY
+(TEKU)
+TEKU AI ASSISTANT — MASTER
+KNOWLEDGE BOOK
+KAA SALAMA • Consolidated knowledge base for chatbot development
+Version: 08 September 2026
+Prepared from the user's TEKU chatbot knowledge document plus a targeted review
+of current official TEKU web pages and 2026/2027 download-centre materials.
+Important: This is a project knowledge/reference book, not an official TEKU publication. Time-sensitive facts such as fees,
+deadlines, programmes and calendars must be checked against the latest official TEKU source before the chatbot presents
+them as current.
+
+===== PAGE 2 =====
+
+TEKU AI Assistant — Master Knowledge Book • Project reference
+Page 2
+CONTENTS
+01. 1. Introduction
+02. 2. University Name and Identity
+03. 3. Location
+04. 4. History and Background
+05. 5. Ownership and Affiliation
+06. 6. Mission
+07. 7. Vision
+08. 8. Core Values
+09. 9. Academic Structure
+10. 10. Academic Programs
+11. 11. Undergraduate Studies
+12. 12. Diploma and Certificate Studies
+13. 13. Postgraduate Studies
+14. 14. Admission
+15. 15. Application Procedure
+16. 16. Admission Status
+17. 17. Registration
+18. 18. Tuition and Other Fees
+19. 19. Payment of Fees
+20. 20. Academic Calendar
+21. 21. Examinations
+22. 22. Results
+23. 23. Student Identification
+24. 24. Student Life
+25. 25. Student Organizations
+26. 26. Accommodation
+27. 27. Library Services
+28. 28. Information Technology
+29. 29. Online Learning
+30. 30. Research
+31. 31. Student Support
+32. 32. Academic Advising
+33. 33. Discipline and University Regulations
+34. 34. Health and Welfare
+35. 35. Communication With the University
+36. 36. Frequently Asked Questions
+37. 37. Chatbot Behaviour
+
+===== PAGE 3 =====
+
+TEKU AI Assistant — Master Knowledge Book • Project reference
+Page 3
+38. 38. Handling Outdated Information
+39. 39. Privacy and Security
+40. 40. Escalation to Human Staff
+41. 41. Recommended Chatbot Response Style
+42. 42. Knowledge Priority
+43. 43. General Contact Guidance
+44. 44. Final Purpose of the Chatbot
+45. 45. Summary
+Current website-verified additions
+W1. Current official download centre
+W2. 2026/2027 undergraduate admission snapshot
+W3. 2026/2027 academic calendar snapshot
+W4. Current programme/fee snapshot
+W5. Source conflict policy
+Appendices: source policy, chatbot rules, FAQ patterns, data model and deployment preparation
+
+===== PAGE 4 =====
+
+TEKU AI Assistant — Master Knowledge Book • Project reference
+Page 4
+SOURCE REGISTER & DATA GOVERNANCE
+Source
+Role
+Priority
+User-provided TEKU Chatbot Knowledge Documentation
+Base knowledge, behavioural rules and broad coverage
+High
+TEKU official website / download centre
+Current institutional, admission and service information
+Highest for current web facts
+TEKU 2026/2027 joining instructions
+Programme-specific requirements, fees and registration
+Highest for that programme/year
+TEKU 2025/2026 prospectuses
+Deep academic, policy, library, higher-degree and programme context
+High, but year-sensitive
+TEKU Almanac 2025/2026
+Academic calendar and institutional dates
+High, but date-sensitive
+Official source entry points
+https://www.teku.ac.tz/
+https://www.teku.ac.tz/downloadcentre.php
+https://www.teku.ac.tz/prospectus.php
+https://www.teku.ac.tz/fee_structure.php
+
+===== PAGE 5 =====
+
+TEKU AI Assistant — Master Knowledge Book • Project reference
+Page 5
+CHAPTER 1: 1. Introduction
+SOURCE KNOWLEDGE
+Teofilo Kisanji University, commonly known as TEKU, is a
+university located in Mbeya, Tanzania. The university provides higher
+education and training to students in a variety of academic and
+professional fields. TEKU is associated with the Moravian Church in
+Tanzania and has developed into an institution serving students from
+different parts of Tanzania and beyond. The university provides an
+environment for academic learning, professional development,
+research, innovation, and community service.
+This document is designed to provide the knowledge required by a
+chatbot that assists students, applicants, parents, visitors, staff,
+and members of the public who want information about Teofilo Kisanji
+University. The chatbot should use this information to answer
+questions about the university, its academic activities, admissions,
+student life, facilities, and general services.
+Source note: This chapter is derived from the user's supplied TEKU chatbot knowledge documentation. Where the document itself warns that a fact
+is time-sensitive, the chatbot should verify it against the latest official TEKU publication.
+
+===== PAGE 6 =====
+
+TEKU AI Assistant — Master Knowledge Book • Project reference
+Page 6
+CHAPTER 1: CHATBOT IMPLEMENTATION CARD
+Topic: 1. Introduction
+Operational rules
+•
+Answer directly when the knowledge base contains reliable information.
+•
+If the question is ambiguous, ask one short clarifying question.
+•
+Do not invent missing facts.
+•
+Prefer current official TEKU sources over old or unofficial material.
+•
+Keep simple answers concise and provide more detail only when needed.
+Suggested user-question patterns
+•
+What information do you have about 1. introduction?
+•
+Can you explain 1. introduction at TEKU?
+•
+Where can I get official information about 1. introduction?
+Fallback behaviour
+If the knowledge base does not contain a reliable answer, the assistant should say so clearly, avoid guessing, and direct
+the user to the appropriate verified TEKU office or official source when available.
+RAG metadata to attach
+Field
+Example
+topic
+1. Introduction
+academic_year
+current / source year
+source_type
+official / user-supplied
+source_priority
+high / highest
+last_verified
+YYYY-MM-DD
+confidence
+high / medium / low
+
+===== PAGE 7 =====
+
+TEKU AI Assistant — Master Knowledge Book • Project reference
+Page 7
+CHAPTER 2: 2. University Name and Identity
+SOURCE KNOWLEDGE
+The official name of the institution is Teofilo Kisanji
+University. The commonly used abbreviation is TEKU. When users refer
+to "Teofilo Kisanji University," "TEKU," "Teku
+University," or "the University of TEKU," they are
+generally referring to the same institution in Mbeya, Tanzania.
+TEKU is a higher-learning institution based in Mbeya. The
+university's activities include teaching, learning, research,
+consultancy, innovation, and community engagement. The university
+serves students pursuing different levels of higher education and
+professional development.
+Source note: This chapter is derived from the user's supplied TEKU chatbot knowledge documentation. Where the document itself warns that a fact
+is time-sensitive, the chatbot should verify it against the latest official TEKU publication.
+
+===== PAGE 8 =====
+
+TEKU AI Assistant — Master Knowledge Book • Project reference
+Page 8
+CHAPTER 2: CHATBOT IMPLEMENTATION CARD
+Topic: 2. University Name and Identity
+Operational rules
+•
+Protect personal and authentication information.
+•
+Never request passwords, PINs or one-time passwords.
+•
+Direct users to authenticated official systems for private records.
+•
+Do not expose another student's information.
+•
+Escalate account-specific issues to authorized support.
+Suggested user-question patterns
+•
+What information do you have about 2. university name and identity?
+•
+Can you explain 2. university name and identity at TEKU?
+•
+Where can I get official information about 2. university name and identity?
+Fallback behaviour
+If the knowledge base does not contain a reliable answer, the assistant should say so clearly, avoid guessing, and direct
+the user to the appropriate verified TEKU office or official source when available.
+RAG metadata to attach
+Field
+Example
+topic
+2. University Name and Identity
+academic_year
+current / source year
+source_type
+official / user-supplied
+source_priority
+high / highest
+last_verified
+YYYY-MM-DD
+confidence
+high / medium / low
+
+===== PAGE 9 =====
+
+TEKU AI Assistant — Master Knowledge Book • Project reference
+Page 9
+CHAPTER 3: 3. Location
+SOURCE KNOWLEDGE
+Teofilo Kisanji University is located in Mbeya, Tanzania. Mbeya is
+a major city in the Southern Highlands of Tanzania and is an
+important centre for education, business, transportation, and other
+economic activities. The university's location makes it accessible to
+students from Mbeya and other regions of Tanzania.
+When a user asks where TEKU is located, the chatbot should explain
+that the university is in Mbeya, Tanzania. If the user asks for exact
+directions, the chatbot should provide the official location
+information available from the university or recommend using an
+official university contact or a current map service because routes
+and landmarks can change.
+Source note: This chapter is derived from the user's supplied TEKU chatbot knowledge documentation. Where the document itself warns that a fact
+is time-sensitive, the chatbot should verify it against the latest official TEKU publication.
+
+===== PAGE 10 =====
+
+TEKU AI Assistant — Master Knowledge Book • Project reference
+Page 10
+CHAPTER 3: CHATBOT IMPLEMENTATION CARD
+Topic: 3. Location
+Operational rules
+•
+Answer directly when the knowledge base contains reliable information.
+•
+If the question is ambiguous, ask one short clarifying question.
+•
+Do not invent missing facts.
+•
+Prefer current official TEKU sources over old or unofficial material.
+•
+Keep simple answers concise and provide more detail only when needed.
+Suggested user-question patterns
+•
+What information do you have about 3. location?
+•
+Can you explain 3. location at TEKU?
+•
+Where can I get official information about 3. location?
+Fallback behaviour
+If the knowledge base does not contain a reliable answer, the assistant should say so clearly, avoid guessing, and direct
+the user to the appropriate verified TEKU office or official source when available.
+RAG metadata to attach
+Field
+Example
+topic
+3. Location
+academic_year
+current / source year
+source_type
+official / user-supplied
+source_priority
+high / highest
+last_verified
+YYYY-MM-DD
+confidence
+high / medium / low
+
+===== PAGE 11 =====
+
+TEKU AI Assistant — Master Knowledge Book • Project reference
+Page 11
+CHAPTER 4: 4. History and Background
+SOURCE KNOWLEDGE
+Teofilo Kisanji University was established as an institution of
+higher learning associated with the Moravian Church in Tanzania. The
+university developed from the educational activities of the church
+and was established to provide higher education and contribute to the
+social, economic, moral, and professional development of Tanzanian
+society.
+The university is named after Teofilo Kisanji, an important figure
+in the history of the Moravian Church and education in Tanzania. The
+institution continues to emphasize education, character development,
+service, and academic development.
+Source note: This chapter is derived from the user's supplied TEKU chatbot knowledge documentation. Where the document itself warns that a fact
+is time-sensitive, the chatbot should verify it against the latest official TEKU publication.
+
+===== PAGE 12 =====
+
+TEKU AI Assistant — Master Knowledge Book • Project reference
+Page 12
+CHAPTER 4: CHATBOT IMPLEMENTATION CARD
+Topic: 4. History and Background
+Operational rules
+•
+Answer directly when the knowledge base contains reliable information.
+•
+If the question is ambiguous, ask one short clarifying question.
+•
+Do not invent missing facts.
+•
+Prefer current official TEKU sources over old or unofficial material.
+•
+Keep simple answers concise and provide more detail only when needed.
+Suggested user-question patterns
+•
+What information do you have about 4. history and background?
+•
+Can you explain 4. history and background at TEKU?
+•
+Where can I get official information about 4. history and background?
+Fallback behaviour
+If the knowledge base does not contain a reliable answer, the assistant should say so clearly, avoid guessing, and direct
+the user to the appropriate verified TEKU office or official source when available.
+RAG metadata to attach
+Field
+Example
+topic
+4. History and Background
+academic_year
+current / source year
+source_type
+official / user-supplied
+source_priority
+high / highest
+last_verified
+YYYY-MM-DD
+confidence
+high / medium / low
+
+===== PAGE 13 =====
+
+TEKU AI Assistant — Master Knowledge Book • Project reference
+Page 13
+CHAPTER 5: 5. Ownership and Affiliation
+SOURCE KNOWLEDGE
+Teofilo Kisanji University is affiliated with the Moravian Church
+in Tanzania. The university operates as a higher-learning institution
+while maintaining its connection with the church's educational and
+social mission.
+The chatbot should distinguish between the university's
+institutional ownership or affiliation and individual departments or
+academic programs. When users ask about the university's religious
+background, the chatbot can explain that TEKU has a Moravian Church
+background while serving students from different backgrounds.
+Source note: This chapter is derived from the user's supplied TEKU chatbot knowledge documentation. Where the document itself warns that a fact
+is time-sensitive, the chatbot should verify it against the latest official TEKU publication.
+
+===== PAGE 14 =====
+
+TEKU AI Assistant — Master Knowledge Book • Project reference
+Page 14
+CHAPTER 5: CHATBOT IMPLEMENTATION CARD
+Topic: 5. Ownership and Affiliation
+Operational rules
+•
+Answer directly when the knowledge base contains reliable information.
+•
+If the question is ambiguous, ask one short clarifying question.
+•
+Do not invent missing facts.
+•
+Prefer current official TEKU sources over old or unofficial material.
+•
+Keep simple answers concise and provide more detail only when needed.
+Suggested user-question patterns
+•
+What information do you have about 5. ownership and affiliation?
+•
+Can you explain 5. ownership and affiliation at TEKU?
+•
+Where can I get official information about 5. ownership and affiliation?
+Fallback behaviour
+If the knowledge base does not contain a reliable answer, the assistant should say so clearly, avoid guessing, and direct
+the user to the appropriate verified TEKU office or official source when available.
+RAG metadata to attach
+Field
+Example
+topic
+5. Ownership and Affiliation
+academic_year
+current / source year
+source_type
+official / user-supplied
+source_priority
+high / highest
+last_verified
+YYYY-MM-DD
+confidence
+high / medium / low
+
+===== PAGE 15 =====
+
+TEKU AI Assistant — Master Knowledge Book • Project reference
+Page 15
+CHAPTER 6: 6. Mission
+SOURCE KNOWLEDGE
+The university's mission is centred on providing quality higher
+education, developing competent graduates, promoting research and
+innovation, and contributing to the development of society. TEKU
+seeks to prepare students with academic knowledge, practical skills,
+professional competence, ethical values, and the ability to
+contribute positively to their communities.
+When answering questions about the university's mission, the
+chatbot should focus on education, research, innovation, professional
+development, ethical values, and community service.
+Source note: This chapter is derived from the user's supplied TEKU chatbot knowledge documentation. Where the document itself warns that a fact
+is time-sensitive, the chatbot should verify it against the latest official TEKU publication.
+
+===== PAGE 16 =====
+
+TEKU AI Assistant — Master Knowledge Book • Project reference
+Page 16
+CHAPTER 6: CHATBOT IMPLEMENTATION CARD
+Topic: 6. Mission
+Operational rules
+•
+Answer directly when the knowledge base contains reliable information.
+•
+If the question is ambiguous, ask one short clarifying question.
+•
+Do not invent missing facts.
+•
+Prefer current official TEKU sources over old or unofficial material.
+•
+Keep simple answers concise and provide more detail only when needed.
+Suggested user-question patterns
+•
+What information do you have about 6. mission?
+•
+Can you explain 6. mission at TEKU?
+•
+Where can I get official information about 6. mission?
+Fallback behaviour
+If the knowledge base does not contain a reliable answer, the assistant should say so clearly, avoid guessing, and direct
+the user to the appropriate verified TEKU office or official source when available.
+RAG metadata to attach
+Field
+Example
+topic
+6. Mission
+academic_year
+current / source year
+source_type
+official / user-supplied
+source_priority
+high / highest
+last_verified
+YYYY-MM-DD
+confidence
+high / medium / low
+
+===== PAGE 17 =====
+
+TEKU AI Assistant — Master Knowledge Book • Project reference
+Page 17
+CHAPTER 7: 7. Vision
+SOURCE KNOWLEDGE
+TEKU's vision is related to becoming a respected institution of
+higher learning that contributes to academic excellence, research,
+innovation, professional development, and societal transformation.
+The chatbot should avoid inventing an exact official vision statement
+if the user requests the official wording. Instead, it should provide
+the officially published statement when available.
+Source note: This chapter is derived from the user's supplied TEKU chatbot knowledge documentation. Where the document itself warns that a fact
+is time-sensitive, the chatbot should verify it against the latest official TEKU publication.
+
+===== PAGE 18 =====
+
+TEKU AI Assistant — Master Knowledge Book • Project reference
+Page 18
+CHAPTER 7: CHATBOT IMPLEMENTATION CARD
+Topic: 7. Vision
+Operational rules
+•
+Answer directly when the knowledge base contains reliable information.
+•
+If the question is ambiguous, ask one short clarifying question.
+•
+Do not invent missing facts.
+•
+Prefer current official TEKU sources over old or unofficial material.
+•
+Keep simple answers concise and provide more detail only when needed.
+Suggested user-question patterns
+•
+What information do you have about 7. vision?
+•
+Can you explain 7. vision at TEKU?
+•
+Where can I get official information about 7. vision?
+Fallback behaviour
+If the knowledge base does not contain a reliable answer, the assistant should say so clearly, avoid guessing, and direct
+the user to the appropriate verified TEKU office or official source when available.
+RAG metadata to attach
+Field
+Example
+topic
+7. Vision
+academic_year
+current / source year
+source_type
+official / user-supplied
+source_priority
+high / highest
+last_verified
+YYYY-MM-DD
+confidence
+high / medium / low
+
+===== PAGE 19 =====
+
+TEKU AI Assistant — Master Knowledge Book • Project reference
+Page 19
+CHAPTER 8: 8. Core Values
+SOURCE KNOWLEDGE
+The university promotes values associated with academic
+excellence, integrity, professionalism, discipline, responsibility,
+service, respect, and ethical conduct. Students are expected to
+conduct themselves responsibly and to respect university regulations,
+members of the university community, and the wider society.
+The chatbot should encourage students to follow official
+university procedures and regulations when answering questions
+involving academic or disciplinary matters.
+Source note: This chapter is derived from the user's supplied TEKU chatbot knowledge documentation. Where the document itself warns that a fact
+is time-sensitive, the chatbot should verify it against the latest official TEKU publication.
+
+===== PAGE 20 =====
+
+TEKU AI Assistant — Master Knowledge Book • Project reference
+Page 20
+CHAPTER 8: CHATBOT IMPLEMENTATION CARD
+Topic: 8. Core Values
+Operational rules
+•
+Answer directly when the knowledge base contains reliable information.
+•
+If the question is ambiguous, ask one short clarifying question.
+•
+Do not invent missing facts.
+•
+Prefer current official TEKU sources over old or unofficial material.
+•
+Keep simple answers concise and provide more detail only when needed.
+Suggested user-question patterns
+•
+What information do you have about 8. core values?
+•
+Can you explain 8. core values at TEKU?
+•
+Where can I get official information about 8. core values?
+Fallback behaviour
+If the knowledge base does not contain a reliable answer, the assistant should say so clearly, avoid guessing, and direct
+the user to the appropriate verified TEKU office or official source when available.
+RAG metadata to attach
+Field
+Example
+topic
+8. Core Values
+academic_year
+current / source year
+source_type
+official / user-supplied
+source_priority
+high / highest
+last_verified
+YYYY-MM-DD
+confidence
+high / medium / low
+
+===== PAGE 21 =====
+
+TEKU AI Assistant — Master Knowledge Book • Project reference
+Page 21
+CHAPTER 9: 9. Academic Structure
+SOURCE KNOWLEDGE
+TEKU has different academic units responsible for teaching and
+learning in specific areas of study. Academic departments and
+faculties or schools may change their organization over time as the
+university introduces new programs or restructures existing units.
+Students who want to know whether a specific course is currently
+offered should be directed to the latest official university
+prospectus, admissions information, or relevant academic office. The
+chatbot should not assume that a program remains available simply
+because it existed in an older academic year.
+Source note: This chapter is derived from the user's supplied TEKU chatbot knowledge documentation. Where the document itself warns that a fact
+is time-sensitive, the chatbot should verify it against the latest official TEKU publication.
+
+===== PAGE 22 =====
+
+TEKU AI Assistant — Master Knowledge Book • Project reference
+Page 22
+CHAPTER 9: CHATBOT IMPLEMENTATION CARD
+Topic: 9. Academic Structure
+Operational rules
+•
+Answer directly when the knowledge base contains reliable information.
+•
+If the question is ambiguous, ask one short clarifying question.
+•
+Do not invent missing facts.
+•
+Prefer current official TEKU sources over old or unofficial material.
+•
+Keep simple answers concise and provide more detail only when needed.
+Suggested user-question patterns
+•
+What information do you have about 9. academic structure?
+•
+Can you explain 9. academic structure at TEKU?
+•
+Where can I get official information about 9. academic structure?
+Fallback behaviour
+If the knowledge base does not contain a reliable answer, the assistant should say so clearly, avoid guessing, and direct
+the user to the appropriate verified TEKU office or official source when available.
+RAG metadata to attach
+Field
+Example
+topic
+9. Academic Structure
+academic_year
+current / source year
+source_type
+official / user-supplied
+source_priority
+high / highest
+last_verified
+YYYY-MM-DD
+confidence
+high / medium / low
+
+===== PAGE 23 =====
+
+TEKU AI Assistant — Master Knowledge Book • Project reference
+Page 23
+CHAPTER 10: 10. Academic Programs
+SOURCE KNOWLEDGE
+TEKU offers academic and professional programs in different
+fields. Areas associated with the university include education,
+business and economics, social sciences, law, computer and
+information-related studies, environmental studies, theology, and
+other disciplines.
+The exact list of undergraduate, postgraduate, diploma,
+certificate, and other programs may change from one academic year to
+another. Therefore, the chatbot should treat the current university
+prospectus and official admissions announcements as the primary
+source when a user asks for the current list of programs.
+If a user asks, "Does TEKU offer Computer Science?" the
+chatbot should verify the current program list before giving a
+definitive answer. If the information is available in the chatbot's
+current database, it should provide the program name, level, entry
+requirements, duration, and other relevant information.
+Source note: This chapter is derived from the user's supplied TEKU chatbot knowledge documentation. Where the document itself warns that a fact
+is time-sensitive, the chatbot should verify it against the latest official TEKU publication.
+
+===== PAGE 24 =====
+
+TEKU AI Assistant — Master Knowledge Book • Project reference
+Page 24
+CHAPTER 10: CHATBOT IMPLEMENTATION CARD
+Topic: 10. Academic Programs
+Operational rules
+•
+Answer directly when the knowledge base contains reliable information.
+•
+If the question is ambiguous, ask one short clarifying question.
+•
+Do not invent missing facts.
+•
+Prefer current official TEKU sources over old or unofficial material.
+•
+Keep simple answers concise and provide more detail only when needed.
+Suggested user-question patterns
+•
+What information do you have about 10. academic programs?
+•
+Can you explain 10. academic programs at TEKU?
+•
+Where can I get official information about 10. academic programs?
+Fallback behaviour
+If the knowledge base does not contain a reliable answer, the assistant should say so clearly, avoid guessing, and direct
+the user to the appropriate verified TEKU office or official source when available.
+RAG metadata to attach
+Field
+Example
+topic
+10. Academic Programs
+academic_year
+current / source year
+source_type
+official / user-supplied
+source_priority
+high / highest
+last_verified
+YYYY-MM-DD
+confidence
+high / medium / low
+
+===== PAGE 25 =====
+
+TEKU AI Assistant — Master Knowledge Book • Project reference
+Page 25
+CHAPTER 11: 11. Undergraduate Studies
+SOURCE KNOWLEDGE
+Undergraduate education at TEKU is designed to provide students
+with foundational and advanced knowledge in their chosen fields.
+Students may pursue bachelor's degrees and other undergraduate
+qualifications depending on the programs available during a
+particular academic year.
+Admission into undergraduate programs depends on the
+qualifications required by the university and relevant Tanzanian
+higher-education regulations. Applicants should provide the required
+academic certificates and complete the appropriate application
+procedure.
+The chatbot should not create admission requirements when they are
+not available. If the user asks for exact grades or subject
+combinations, the chatbot should provide the current official
+requirements for the specific program and academic year.
+Source note: This chapter is derived from the user's supplied TEKU chatbot knowledge documentation. Where the document itself warns that a fact
+is time-sensitive, the chatbot should verify it against the latest official TEKU publication.
+
+===== PAGE 26 =====
+
+TEKU AI Assistant — Master Knowledge Book • Project reference
+Page 26
+CHAPTER 11: CHATBOT IMPLEMENTATION CARD
+Topic: 11. Undergraduate Studies
+Operational rules
+•
+Answer directly when the knowledge base contains reliable information.
+•
+If the question is ambiguous, ask one short clarifying question.
+•
+Do not invent missing facts.
+•
+Prefer current official TEKU sources over old or unofficial material.
+•
+Keep simple answers concise and provide more detail only when needed.
+Suggested user-question patterns
+•
+What information do you have about 11. undergraduate studies?
+•
+Can you explain 11. undergraduate studies at TEKU?
+•
+Where can I get official information about 11. undergraduate studies?
+Fallback behaviour
+If the knowledge base does not contain a reliable answer, the assistant should say so clearly, avoid guessing, and direct
+the user to the appropriate verified TEKU office or official source when available.
+RAG metadata to attach
+Field
+Example
+topic
+11. Undergraduate Studies
+academic_year
+current / source year
+source_type
+official / user-supplied
+source_priority
+high / highest
+last_verified
+YYYY-MM-DD
+confidence
+high / medium / low
+
+===== PAGE 27 =====
+
+TEKU AI Assistant — Master Knowledge Book • Project reference
+Page 27
+CHAPTER 12: 12. Diploma and Certificate Studies
+SOURCE KNOWLEDGE
+TEKU may provide diploma and certificate-level programs in
+selected fields. These programs are intended to provide students with
+academic and practical skills that can support further education or
+employment.
+Admission requirements depend on the specific program and level.
+Applicants should check the current TEKU admission guide or contact
+the admissions office for the most accurate information.
+Source note: This chapter is derived from the user's supplied TEKU chatbot knowledge documentation. Where the document itself warns that a fact
+is time-sensitive, the chatbot should verify it against the latest official TEKU publication.
+
+===== PAGE 28 =====
+
+TEKU AI Assistant — Master Knowledge Book • Project reference
+Page 28
+CHAPTER 12: CHATBOT IMPLEMENTATION CARD
+Topic: 12. Diploma and Certificate Studies
+Operational rules
+•
+Answer directly when the knowledge base contains reliable information.
+•
+If the question is ambiguous, ask one short clarifying question.
+•
+Do not invent missing facts.
+•
+Prefer current official TEKU sources over old or unofficial material.
+•
+Keep simple answers concise and provide more detail only when needed.
+Suggested user-question patterns
+•
+What information do you have about 12. diploma and certificate studies?
+•
+Can you explain 12. diploma and certificate studies at TEKU?
+•
+Where can I get official information about 12. diploma and certificate studies?
+Fallback behaviour
+If the knowledge base does not contain a reliable answer, the assistant should say so clearly, avoid guessing, and direct
+the user to the appropriate verified TEKU office or official source when available.
+RAG metadata to attach
+Field
+Example
+topic
+12. Diploma and Certificate Studies
+academic_year
+current / source year
+source_type
+official / user-supplied
+source_priority
+high / highest
+last_verified
+YYYY-MM-DD
+confidence
+high / medium / low
+
+===== PAGE 29 =====
+
+TEKU AI Assistant — Master Knowledge Book • Project reference
+Page 29
+CHAPTER 13: 13. Postgraduate Studies
+SOURCE KNOWLEDGE
+Postgraduate education provides opportunities for students who
+have completed relevant undergraduate qualifications and want to
+advance their academic or professional knowledge. The availability of
+master's, postgraduate diploma, doctoral, or other advanced programs
+depends on the university's current academic offerings.
+Students interested in postgraduate studies should check the
+latest TEKU postgraduate admission information for available
+programs, entry requirements, application deadlines, tuition fees,
+and supporting documents.
+Source note: This chapter is derived from the user's supplied TEKU chatbot knowledge documentation. Where the document itself warns that a fact
+is time-sensitive, the chatbot should verify it against the latest official TEKU publication.
+
+===== PAGE 30 =====
+
+TEKU AI Assistant — Master Knowledge Book • Project reference
+Page 30
+CHAPTER 13: CHATBOT IMPLEMENTATION CARD
+Topic: 13. Postgraduate Studies
+Operational rules
+•
+Answer directly when the knowledge base contains reliable information.
+•
+If the question is ambiguous, ask one short clarifying question.
+•
+Do not invent missing facts.
+•
+Prefer current official TEKU sources over old or unofficial material.
+•
+Keep simple answers concise and provide more detail only when needed.
+Suggested user-question patterns
+•
+What information do you have about 13. postgraduate studies?
+•
+Can you explain 13. postgraduate studies at TEKU?
+•
+Where can I get official information about 13. postgraduate studies?
+Fallback behaviour
+If the knowledge base does not contain a reliable answer, the assistant should say so clearly, avoid guessing, and direct
+the user to the appropriate verified TEKU office or official source when available.
+RAG metadata to attach
+Field
+Example
+topic
+13. Postgraduate Studies
+academic_year
+current / source year
+source_type
+official / user-supplied
+source_priority
+high / highest
+last_verified
+YYYY-MM-DD
+confidence
+high / medium / low
+
+===== PAGE 31 =====
+
+TEKU AI Assistant — Master Knowledge Book • Project reference
+Page 31
+CHAPTER 14: 14. Admission
+SOURCE KNOWLEDGE
+Admission is the process through which qualified applicants apply
+to study at TEKU. Applicants should select an appropriate program,
+confirm that they meet the entry requirements, submit the required
+information and documents, and follow the university's application
+procedure.
+Admission requirements differ depending on the level and program.
+A requirement for one program should not automatically be assumed to
+apply to another program. The chatbot should therefore ask the
+applicant which program and level they are interested in before
+giving detailed admission guidance.
+Source note: This chapter is derived from the user's supplied TEKU chatbot knowledge documentation. Where the document itself warns that a fact
+is time-sensitive, the chatbot should verify it against the latest official TEKU publication.
+
+===== PAGE 32 =====
+
+TEKU AI Assistant — Master Knowledge Book • Project reference
+Page 32
+CHAPTER 14: CHATBOT IMPLEMENTATION CARD
+Topic: 14. Admission
+Operational rules
+•
+Ask for the intended programme and study level when the question is ambiguous.
+•
+Use the latest official admission/joining document available to the knowledge base.
+•
+Separate general guidance from programme-specific requirements.
+•
+Do not claim an applicant has been admitted unless connected to an authorized admissions system.
+•
+Escalate unusual cases to the relevant TEKU office.
+Suggested user-question patterns
+•
+What information do you have about 14. admission?
+•
+Can you explain 14. admission at TEKU?
+•
+Where can I get official information about 14. admission?
+Fallback behaviour
+If the knowledge base does not contain a reliable answer, the assistant should say so clearly, avoid guessing, and direct
+the user to the appropriate verified TEKU office or official source when available.
+RAG metadata to attach
+Field
+Example
+topic
+14. Admission
+academic_year
+current / source year
+source_type
+official / user-supplied
+source_priority
+high / highest
+last_verified
+YYYY-MM-DD
+confidence
+high / medium / low
+
+===== PAGE 33 =====
+
+TEKU AI Assistant — Master Knowledge Book • Project reference
+Page 33
+CHAPTER 15: 15. Application Procedure
+SOURCE KNOWLEDGE
+Applicants should use the official TEKU application process
+provided by the university. The process may involve creating an
+applicant account, completing an online application form, providing
+academic information, uploading or submitting required documents,
+paying an application fee where applicable, and submitting the
+application for consideration.
+Application procedures can change. For this reason, the chatbot
+should always use the latest official instructions when explaining
+how to apply.
+Source note: This chapter is derived from the user's supplied TEKU chatbot knowledge documentation. Where the document itself warns that a fact
+is time-sensitive, the chatbot should verify it against the latest official TEKU publication.
+
+===== PAGE 34 =====
+
+TEKU AI Assistant — Master Knowledge Book • Project reference
+Page 34
+CHAPTER 15: CHATBOT IMPLEMENTATION CARD
+Topic: 15. Application Procedure
+Operational rules
+•
+Ask for the intended programme and study level when the question is ambiguous.
+•
+Use the latest official admission/joining document available to the knowledge base.
+•
+Separate general guidance from programme-specific requirements.
+•
+Do not claim an applicant has been admitted unless connected to an authorized admissions system.
+•
+Escalate unusual cases to the relevant TEKU office.
+Suggested user-question patterns
+•
+What information do you have about 15. application procedure?
+•
+Can you explain 15. application procedure at TEKU?
+•
+Where can I get official information about 15. application procedure?
+Fallback behaviour
+If the knowledge base does not contain a reliable answer, the assistant should say so clearly, avoid guessing, and direct
+the user to the appropriate verified TEKU office or official source when available.
+RAG metadata to attach
+Field
+Example
+topic
+15. Application Procedure
+academic_year
+current / source year
+source_type
+official / user-supplied
+source_priority
+high / highest
+last_verified
+YYYY-MM-DD
+confidence
+high / medium / low
+
+===== PAGE 35 =====
+
+TEKU AI Assistant — Master Knowledge Book • Project reference
+Page 35
+CHAPTER 16: 16. Admission Status
+SOURCE KNOWLEDGE
+Applicants may want to know whether they have been admitted,
+whether their application has been received, or whether they need to
+provide additional documents. Admission status should be checked
+using the official university admission system or through the
+appropriate university office.
+The chatbot should never claim that a particular applicant has
+been admitted unless it has access to an authorized system containing
+that applicant's official admission information.
+Source note: This chapter is derived from the user's supplied TEKU chatbot knowledge documentation. Where the document itself warns that a fact
+is time-sensitive, the chatbot should verify it against the latest official TEKU publication.
+
+===== PAGE 36 =====
+
+TEKU AI Assistant — Master Knowledge Book • Project reference
+Page 36
+CHAPTER 16: CHATBOT IMPLEMENTATION CARD
+Topic: 16. Admission Status
+Operational rules
+•
+Ask for the intended programme and study level when the question is ambiguous.
+•
+Use the latest official admission/joining document available to the knowledge base.
+•
+Separate general guidance from programme-specific requirements.
+•
+Do not claim an applicant has been admitted unless connected to an authorized admissions system.
+•
+Escalate unusual cases to the relevant TEKU office.
+Suggested user-question patterns
+•
+What information do you have about 16. admission status?
+•
+Can you explain 16. admission status at TEKU?
+•
+Where can I get official information about 16. admission status?
+Fallback behaviour
+If the knowledge base does not contain a reliable answer, the assistant should say so clearly, avoid guessing, and direct
+the user to the appropriate verified TEKU office or official source when available.
+RAG metadata to attach
+Field
+Example
+topic
+16. Admission Status
+academic_year
+current / source year
+source_type
+official / user-supplied
+source_priority
+high / highest
+last_verified
+YYYY-MM-DD
+confidence
+high / medium / low
+
+===== PAGE 37 =====
+
+TEKU AI Assistant — Master Knowledge Book • Project reference
+Page 37
+CHAPTER 17: 17. Registration
+SOURCE KNOWLEDGE
+After admission, students are normally required to complete
+university registration before beginning or continuing their studies.
+Registration may involve confirming admission, paying required fees,
+submitting documents, completing academic registration, and
+fulfilling other university requirements.
+Students should complete registration within the deadlines
+communicated by the university. Late registration may be subject to
+university rules and applicable penalties.
+Source note: This chapter is derived from the user's supplied TEKU chatbot knowledge documentation. Where the document itself warns that a fact
+is time-sensitive, the chatbot should verify it against the latest official TEKU publication.
+
+===== PAGE 38 =====
+
+TEKU AI Assistant — Master Knowledge Book • Project reference
+Page 38
+CHAPTER 17: CHATBOT IMPLEMENTATION CARD
+Topic: 17. Registration
+Operational rules
+•
+Ask for the intended programme and study level when the question is ambiguous.
+•
+Use the latest official admission/joining document available to the knowledge base.
+•
+Separate general guidance from programme-specific requirements.
+•
+Do not claim an applicant has been admitted unless connected to an authorized admissions system.
+•
+Escalate unusual cases to the relevant TEKU office.
+Suggested user-question patterns
+•
+What information do you have about 17. registration?
+•
+Can you explain 17. registration at TEKU?
+•
+Where can I get official information about 17. registration?
+Fallback behaviour
+If the knowledge base does not contain a reliable answer, the assistant should say so clearly, avoid guessing, and direct
+the user to the appropriate verified TEKU office or official source when available.
+RAG metadata to attach
+Field
+Example
+topic
+17. Registration
+academic_year
+current / source year
+source_type
+official / user-supplied
+source_priority
+high / highest
+last_verified
+YYYY-MM-DD
+confidence
+high / medium / low
+
+===== PAGE 39 =====
+
+TEKU AI Assistant — Master Knowledge Book • Project reference
+Page 39
+CHAPTER 18: 18. Tuition and Other Fees
+SOURCE KNOWLEDGE
+University fees depend on the student's program, level of study,
+academic year, and other applicable charges. Fees may include tuition
+and other university-related charges.
+Because fees can change, the chatbot should not provide outdated
+figures as current information. When a student asks, "How much
+are the fees at TEKU?" the chatbot should first identify the
+program and level and then provide the current official fee
+information if available.
+If exact current figures are unavailable, the chatbot should
+clearly state that the student should consult the latest official fee
+structure or the university finance office.
+Source note: This chapter is derived from the user's supplied TEKU chatbot knowledge documentation. Where the document itself warns that a fact
+is time-sensitive, the chatbot should verify it against the latest official TEKU publication.
+
+===== PAGE 40 =====
+
+TEKU AI Assistant — Master Knowledge Book • Project reference
+Page 40
+CHAPTER 18: CHATBOT IMPLEMENTATION CARD
+Topic: 18. Tuition and Other Fees
+Operational rules
+•
+Require programme and level before giving an exact figure.
+•
+Store fee year and source document with every fee value.
+•
+Prefer programme-specific joining instructions over generic fee tables.
+•
+If official sources conflict, report the conflict instead of guessing.
+•
+Never invent control numbers, bank details or payment procedures.
+Suggested user-question patterns
+•
+What information do you have about 18. tuition and other fees?
+•
+Can you explain 18. tuition and other fees at TEKU?
+•
+Where can I get official information about 18. tuition and other fees?
+Fallback behaviour
+If the knowledge base does not contain a reliable answer, the assistant should say so clearly, avoid guessing, and direct
+the user to the appropriate verified TEKU office or official source when available.
+RAG metadata to attach
+Field
+Example
+topic
+18. Tuition and Other Fees
+academic_year
+current / source year
+source_type
+official / user-supplied
+source_priority
+high / highest
+last_verified
+YYYY-MM-DD
+confidence
+high / medium / low
+
+===== PAGE 41 =====
+
+TEKU AI Assistant — Master Knowledge Book • Project reference
+Page 41
+CHAPTER 19: 19. Payment of Fees
+SOURCE KNOWLEDGE
+Students are expected to pay university fees using the payment
+methods and procedures officially provided by TEKU. The university
+may provide specific payment instructions, bank details, control
+numbers, or electronic payment procedures.
+The chatbot should never invent bank account numbers, payment
+codes, control numbers, or payment instructions. When exact payment
+information is requested, the chatbot should use current official
+university information.
+Source note: This chapter is derived from the user's supplied TEKU chatbot knowledge documentation. Where the document itself warns that a fact
+is time-sensitive, the chatbot should verify it against the latest official TEKU publication.
+
+===== PAGE 42 =====
+
+TEKU AI Assistant — Master Knowledge Book • Project reference
+Page 42
+CHAPTER 19: CHATBOT IMPLEMENTATION CARD
+Topic: 19. Payment of Fees
+Operational rules
+•
+Require programme and level before giving an exact figure.
+•
+Store fee year and source document with every fee value.
+•
+Prefer programme-specific joining instructions over generic fee tables.
+•
+If official sources conflict, report the conflict instead of guessing.
+•
+Never invent control numbers, bank details or payment procedures.
+Suggested user-question patterns
+•
+What information do you have about 19. payment of fees?
+•
+Can you explain 19. payment of fees at TEKU?
+•
+Where can I get official information about 19. payment of fees?
+Fallback behaviour
+If the knowledge base does not contain a reliable answer, the assistant should say so clearly, avoid guessing, and direct
+the user to the appropriate verified TEKU office or official source when available.
+RAG metadata to attach
+Field
+Example
+topic
+19. Payment of Fees
+academic_year
+current / source year
+source_type
+official / user-supplied
+source_priority
+high / highest
+last_verified
+YYYY-MM-DD
+confidence
+high / medium / low
+
+===== PAGE 43 =====
+
+TEKU AI Assistant — Master Knowledge Book • Project reference
+Page 43
+CHAPTER 20: 20. Academic Calendar
+SOURCE KNOWLEDGE
+The academic calendar contains important dates for students,
+including registration, teaching periods, examinations, holidays, and
+other academic activities. The academic calendar may differ from one
+academic year to another.
+When students ask about examination dates, registration deadlines,
+semester dates, or holidays, the chatbot should provide information
+from the current official academic calendar rather than relying on an
+old calendar.
+Source note: This chapter is derived from the user's supplied TEKU chatbot knowledge documentation. Where the document itself warns that a fact
+is time-sensitive, the chatbot should verify it against the latest official TEKU publication.
+
+===== PAGE 44 =====
+
+TEKU AI Assistant — Master Knowledge Book • Project reference
+Page 44
+CHAPTER 20: CHATBOT IMPLEMENTATION CARD
+Topic: 20. Academic Calendar
+Operational rules
+•
+Answer directly when the knowledge base contains reliable information.
+•
+If the question is ambiguous, ask one short clarifying question.
+•
+Do not invent missing facts.
+•
+Prefer current official TEKU sources over old or unofficial material.
+•
+Keep simple answers concise and provide more detail only when needed.
+Suggested user-question patterns
+•
+What information do you have about 20. academic calendar?
+•
+Can you explain 20. academic calendar at TEKU?
+•
+Where can I get official information about 20. academic calendar?
+Fallback behaviour
+If the knowledge base does not contain a reliable answer, the assistant should say so clearly, avoid guessing, and direct
+the user to the appropriate verified TEKU office or official source when available.
+RAG metadata to attach
+Field
+Example
+topic
+20. Academic Calendar
+academic_year
+current / source year
+source_type
+official / user-supplied
+source_priority
+high / highest
+last_verified
+YYYY-MM-DD
+confidence
+high / medium / low
+
+===== PAGE 45 =====
+
+TEKU AI Assistant — Master Knowledge Book • Project reference
+Page 45
+CHAPTER 21: 21. Examinations
+SOURCE KNOWLEDGE
+Examinations are an important part of the academic assessment
+process. Students are expected to follow examination rules and
+procedures established by the university.
+Students should arrive at examination venues on time, carry
+required identification or examination materials, and follow
+instructions from examination officials. Academic misconduct during
+examinations may result in disciplinary action according to
+university regulations.
+Source note: This chapter is derived from the user's supplied TEKU chatbot knowledge documentation. Where the document itself warns that a fact
+is time-sensitive, the chatbot should verify it against the latest official TEKU publication.
+
+===== PAGE 46 =====
+
+TEKU AI Assistant — Master Knowledge Book • Project reference
+Page 46
+CHAPTER 21: CHATBOT IMPLEMENTATION CARD
+Topic: 21. Examinations
+Operational rules
+•
+Answer directly when the knowledge base contains reliable information.
+•
+If the question is ambiguous, ask one short clarifying question.
+•
+Do not invent missing facts.
+•
+Prefer current official TEKU sources over old or unofficial material.
+•
+Keep simple answers concise and provide more detail only when needed.
+Suggested user-question patterns
+•
+What information do you have about 21. examinations?
+•
+Can you explain 21. examinations at TEKU?
+•
+Where can I get official information about 21. examinations?
+Fallback behaviour
+If the knowledge base does not contain a reliable answer, the assistant should say so clearly, avoid guessing, and direct
+the user to the appropriate verified TEKU office or official source when available.
+RAG metadata to attach
+Field
+Example
+topic
+21. Examinations
+academic_year
+current / source year
+source_type
+official / user-supplied
+source_priority
+high / highest
+last_verified
+YYYY-MM-DD
+confidence
+high / medium / low
+
+===== PAGE 47 =====
+
+TEKU AI Assistant — Master Knowledge Book • Project reference
+Page 47
+CHAPTER 22: 22. Results
+SOURCE KNOWLEDGE
+Students receive academic results through the official university
+channels or systems designated for that purpose. Results may include
+course grades, semester results, annual results, or final awards.
+The chatbot should not reveal private student results unless it is
+integrated with an authorized university system and the student has
+been properly authenticated.
+If a student has a problem with their results, such as a missing
+grade or incorrect course result, the chatbot should advise the
+student to follow the official academic or examination-office
+procedure for reporting the issue.
+Source note: This chapter is derived from the user's supplied TEKU chatbot knowledge documentation. Where the document itself warns that a fact
+is time-sensitive, the chatbot should verify it against the latest official TEKU publication.
+
+===== PAGE 48 =====
+
+TEKU AI Assistant — Master Knowledge Book • Project reference
+Page 48
+CHAPTER 22: CHATBOT IMPLEMENTATION CARD
+Topic: 22. Results
+Operational rules
+•
+Protect personal and authentication information.
+•
+Never request passwords, PINs or one-time passwords.
+•
+Direct users to authenticated official systems for private records.
+•
+Do not expose another student's information.
+•
+Escalate account-specific issues to authorized support.
+Suggested user-question patterns
+•
+What information do you have about 22. results?
+•
+Can you explain 22. results at TEKU?
+•
+Where can I get official information about 22. results?
+Fallback behaviour
+If the knowledge base does not contain a reliable answer, the assistant should say so clearly, avoid guessing, and direct
+the user to the appropriate verified TEKU office or official source when available.
+RAG metadata to attach
+Field
+Example
+topic
+22. Results
+academic_year
+current / source year
+source_type
+official / user-supplied
+source_priority
+high / highest
+last_verified
+YYYY-MM-DD
+confidence
+high / medium / low
+
+===== PAGE 49 =====
+
+TEKU AI Assistant — Master Knowledge Book • Project reference
+Page 49
+CHAPTER 23: 23. Student Identification
+SOURCE KNOWLEDGE
+Students may be required to have a university student
+identification card. The identification card can be used to establish
+student identity and access certain university services.
+Students who lose their identification cards should report the
+loss and follow the university's replacement procedure.
+Source note: This chapter is derived from the user's supplied TEKU chatbot knowledge documentation. Where the document itself warns that a fact
+is time-sensitive, the chatbot should verify it against the latest official TEKU publication.
+
+===== PAGE 50 =====
+
+TEKU AI Assistant — Master Knowledge Book • Project reference
+Page 50
+CHAPTER 23: CHATBOT IMPLEMENTATION CARD
+Topic: 23. Student Identification
+Operational rules
+•
+Protect personal and authentication information.
+•
+Never request passwords, PINs or one-time passwords.
+•
+Direct users to authenticated official systems for private records.
+•
+Do not expose another student's information.
+•
+Escalate account-specific issues to authorized support.
+Suggested user-question patterns
+•
+What information do you have about 23. student identification?
+•
+Can you explain 23. student identification at TEKU?
+•
+Where can I get official information about 23. student identification?
+Fallback behaviour
+If the knowledge base does not contain a reliable answer, the assistant should say so clearly, avoid guessing, and direct
+the user to the appropriate verified TEKU office or official source when available.
+RAG metadata to attach
+Field
+Example
+topic
+23. Student Identification
+academic_year
+current / source year
+source_type
+official / user-supplied
+source_priority
+high / highest
+last_verified
+YYYY-MM-DD
+confidence
+high / medium / low
+
+===== PAGE 51 =====
+
+TEKU AI Assistant — Master Knowledge Book • Project reference
+Page 51
+CHAPTER 24: 24. Student Life
+SOURCE KNOWLEDGE
+Student life at TEKU involves academic activities, social
+interaction, student organizations, religious activities, sports,
+cultural activities, and other forms of community engagement.
+Students are encouraged to participate in activities that support
+personal development, leadership, teamwork, communication skills, and
+responsible citizenship while maintaining their academic
+responsibilities.
+Source note: This chapter is derived from the user's supplied TEKU chatbot knowledge documentation. Where the document itself warns that a fact
+is time-sensitive, the chatbot should verify it against the latest official TEKU publication.
+
+===== PAGE 52 =====
+
+TEKU AI Assistant — Master Knowledge Book • Project reference
+Page 52
+CHAPTER 24: CHATBOT IMPLEMENTATION CARD
+Topic: 24. Student Life
+Operational rules
+•
+Answer directly when the knowledge base contains reliable information.
+•
+If the question is ambiguous, ask one short clarifying question.
+•
+Do not invent missing facts.
+•
+Prefer current official TEKU sources over old or unofficial material.
+•
+Keep simple answers concise and provide more detail only when needed.
+Suggested user-question patterns
+•
+What information do you have about 24. student life?
+•
+Can you explain 24. student life at TEKU?
+•
+Where can I get official information about 24. student life?
+Fallback behaviour
+If the knowledge base does not contain a reliable answer, the assistant should say so clearly, avoid guessing, and direct
+the user to the appropriate verified TEKU office or official source when available.
+RAG metadata to attach
+Field
+Example
+topic
+24. Student Life
+academic_year
+current / source year
+source_type
+official / user-supplied
+source_priority
+high / highest
+last_verified
+YYYY-MM-DD
+confidence
+high / medium / low
+
+===== PAGE 53 =====
+
+TEKU AI Assistant — Master Knowledge Book • Project reference
+Page 53
+CHAPTER 25: 25. Student Organizations
+SOURCE KNOWLEDGE
+Students may participate in recognized student organizations and
+associations. These organizations can provide opportunities for
+leadership, networking, social interaction, academic support, and
+community service.
+Students interested in joining or establishing an organization
+should follow the university's official rules and approval
+procedures.
+Source note: This chapter is derived from the user's supplied TEKU chatbot knowledge documentation. Where the document itself warns that a fact
+is time-sensitive, the chatbot should verify it against the latest official TEKU publication.
+
+===== PAGE 54 =====
+
+TEKU AI Assistant — Master Knowledge Book • Project reference
+Page 54
+CHAPTER 25: CHATBOT IMPLEMENTATION CARD
+Topic: 25. Student Organizations
+Operational rules
+•
+Answer directly when the knowledge base contains reliable information.
+•
+If the question is ambiguous, ask one short clarifying question.
+•
+Do not invent missing facts.
+•
+Prefer current official TEKU sources over old or unofficial material.
+•
+Keep simple answers concise and provide more detail only when needed.
+Suggested user-question patterns
+•
+What information do you have about 25. student organizations?
+•
+Can you explain 25. student organizations at TEKU?
+•
+Where can I get official information about 25. student organizations?
+Fallback behaviour
+If the knowledge base does not contain a reliable answer, the assistant should say so clearly, avoid guessing, and direct
+the user to the appropriate verified TEKU office or official source when available.
+RAG metadata to attach
+Field
+Example
+topic
+25. Student Organizations
+academic_year
+current / source year
+source_type
+official / user-supplied
+source_priority
+high / highest
+last_verified
+YYYY-MM-DD
+confidence
+high / medium / low
+
+===== PAGE 55 =====
+
+TEKU AI Assistant — Master Knowledge Book • Project reference
+Page 55
+CHAPTER 26: 26. Accommodation
+SOURCE KNOWLEDGE
+Students may require accommodation either within university
+facilities or through approved or privately available accommodation
+in the surrounding Mbeya area. Availability, prices, application
+procedures, and accommodation rules may change.
+The chatbot should not promise a room or accommodation to a
+student unless it has access to the official accommodation allocation
+system. Students should confirm current accommodation availability
+and procedures with the relevant university office.
+Source note: This chapter is derived from the user's supplied TEKU chatbot knowledge documentation. Where the document itself warns that a fact
+is time-sensitive, the chatbot should verify it against the latest official TEKU publication.
+
+===== PAGE 56 =====
+
+TEKU AI Assistant — Master Knowledge Book • Project reference
+Page 56
+CHAPTER 26: CHATBOT IMPLEMENTATION CARD
+Topic: 26. Accommodation
+Operational rules
+•
+Answer directly when the knowledge base contains reliable information.
+•
+If the question is ambiguous, ask one short clarifying question.
+•
+Do not invent missing facts.
+•
+Prefer current official TEKU sources over old or unofficial material.
+•
+Keep simple answers concise and provide more detail only when needed.
+Suggested user-question patterns
+•
+What information do you have about 26. accommodation?
+•
+Can you explain 26. accommodation at TEKU?
+•
+Where can I get official information about 26. accommodation?
+Fallback behaviour
+If the knowledge base does not contain a reliable answer, the assistant should say so clearly, avoid guessing, and direct
+the user to the appropriate verified TEKU office or official source when available.
+RAG metadata to attach
+Field
+Example
+topic
+26. Accommodation
+academic_year
+current / source year
+source_type
+official / user-supplied
+source_priority
+high / highest
+last_verified
+YYYY-MM-DD
+confidence
+high / medium / low
+
+===== PAGE 57 =====
+
+TEKU AI Assistant — Master Knowledge Book • Project reference
+Page 57
+CHAPTER 27: 27. Library Services
+SOURCE KNOWLEDGE
+The university library supports teaching, learning, research, and
+academic study. Students can use library resources to access books,
+reference materials, journals, and other educational resources
+available through the university.
+Students should follow library rules regarding borrowing,
+returning, use of study spaces, and protection of library materials.
+Source note: This chapter is derived from the user's supplied TEKU chatbot knowledge documentation. Where the document itself warns that a fact
+is time-sensitive, the chatbot should verify it against the latest official TEKU publication.
+
+===== PAGE 58 =====
+
+TEKU AI Assistant — Master Knowledge Book • Project reference
+Page 58
+CHAPTER 27: CHATBOT IMPLEMENTATION CARD
+Topic: 27. Library Services
+Operational rules
+•
+Answer directly when the knowledge base contains reliable information.
+•
+If the question is ambiguous, ask one short clarifying question.
+•
+Do not invent missing facts.
+•
+Prefer current official TEKU sources over old or unofficial material.
+•
+Keep simple answers concise and provide more detail only when needed.
+Suggested user-question patterns
+•
+What information do you have about 27. library services?
+•
+Can you explain 27. library services at TEKU?
+•
+Where can I get official information about 27. library services?
+Fallback behaviour
+If the knowledge base does not contain a reliable answer, the assistant should say so clearly, avoid guessing, and direct
+the user to the appropriate verified TEKU office or official source when available.
+RAG metadata to attach
+Field
+Example
+topic
+27. Library Services
+academic_year
+current / source year
+source_type
+official / user-supplied
+source_priority
+high / highest
+last_verified
+YYYY-MM-DD
+confidence
+high / medium / low
+
+===== PAGE 59 =====
+
+TEKU AI Assistant — Master Knowledge Book • Project reference
+Page 59
+CHAPTER 28: 28. Information Technology
+SOURCE KNOWLEDGE
+Technology is an important part of university learning and
+administration. Students may use university information systems for
+applications, registration, academic activities, communication, and
+other services.
+If the university provides student portals, learning-management
+systems, institutional email, or other digital platforms, students
+should use their assigned credentials and follow official
+instructions.
+The chatbot should never ask students to disclose passwords,
+one-time passwords, or other confidential authentication information.
+Source note: This chapter is derived from the user's supplied TEKU chatbot knowledge documentation. Where the document itself warns that a fact
+is time-sensitive, the chatbot should verify it against the latest official TEKU publication.
+
+===== PAGE 60 =====
+
+TEKU AI Assistant — Master Knowledge Book • Project reference
+Page 60
+CHAPTER 28: CHATBOT IMPLEMENTATION CARD
+Topic: 28. Information Technology
+Operational rules
+•
+Protect personal and authentication information.
+•
+Never request passwords, PINs or one-time passwords.
+•
+Direct users to authenticated official systems for private records.
+•
+Do not expose another student's information.
+•
+Escalate account-specific issues to authorized support.
+Suggested user-question patterns
+•
+What information do you have about 28. information technology?
+•
+Can you explain 28. information technology at TEKU?
+•
+Where can I get official information about 28. information technology?
+Fallback behaviour
+If the knowledge base does not contain a reliable answer, the assistant should say so clearly, avoid guessing, and direct
+the user to the appropriate verified TEKU office or official source when available.
+RAG metadata to attach
+Field
+Example
+topic
+28. Information Technology
+academic_year
+current / source year
+source_type
+official / user-supplied
+source_priority
+high / highest
+last_verified
+YYYY-MM-DD
+confidence
+high / medium / low
+
+===== PAGE 61 =====
+
+TEKU AI Assistant — Master Knowledge Book • Project reference
+Page 61
+CHAPTER 29: 29. Online Learning
+SOURCE KNOWLEDGE
+TEKU may use digital technologies to support teaching and
+learning. Online learning can include electronic learning materials,
+assignments, announcements, communication with lecturers, and other
+digital academic activities.
+Students experiencing technical problems should first check
+official instructions and then contact the appropriate university
+technical-support or academic office.
+Source note: This chapter is derived from the user's supplied TEKU chatbot knowledge documentation. Where the document itself warns that a fact
+is time-sensitive, the chatbot should verify it against the latest official TEKU publication.
+
+===== PAGE 62 =====
+
+TEKU AI Assistant — Master Knowledge Book • Project reference
+Page 62
+CHAPTER 29: CHATBOT IMPLEMENTATION CARD
+Topic: 29. Online Learning
+Operational rules
+•
+Answer directly when the knowledge base contains reliable information.
+•
+If the question is ambiguous, ask one short clarifying question.
+•
+Do not invent missing facts.
+•
+Prefer current official TEKU sources over old or unofficial material.
+•
+Keep simple answers concise and provide more detail only when needed.
+Suggested user-question patterns
+•
+What information do you have about 29. online learning?
+•
+Can you explain 29. online learning at TEKU?
+•
+Where can I get official information about 29. online learning?
+Fallback behaviour
+If the knowledge base does not contain a reliable answer, the assistant should say so clearly, avoid guessing, and direct
+the user to the appropriate verified TEKU office or official source when available.
+RAG metadata to attach
+Field
+Example
+topic
+29. Online Learning
+academic_year
+current / source year
+source_type
+official / user-supplied
+source_priority
+high / highest
+last_verified
+YYYY-MM-DD
+confidence
+high / medium / low
+
+===== PAGE 63 =====
+
+TEKU AI Assistant — Master Knowledge Book • Project reference
+Page 63
+CHAPTER 30: 30. Research
+SOURCE KNOWLEDGE
+Research is an important component of university activities. TEKU
+supports research conducted by academic staff and students in areas
+relevant to education, science, technology, social development,
+economics, environment, theology, and other academic disciplines.
+Students conducting research should follow university research
+procedures, ethical requirements, academic standards, and
+requirements for supervision and approval.
+Source note: This chapter is derived from the user's supplied TEKU chatbot knowledge documentation. Where the document itself warns that a fact
+is time-sensitive, the chatbot should verify it against the latest official TEKU publication.
+
+===== PAGE 64 =====
+
+TEKU AI Assistant — Master Knowledge Book • Project reference
+Page 64
+CHAPTER 30: CHATBOT IMPLEMENTATION CARD
+Topic: 30. Research
+Operational rules
+•
+Answer directly when the knowledge base contains reliable information.
+•
+If the question is ambiguous, ask one short clarifying question.
+•
+Do not invent missing facts.
+•
+Prefer current official TEKU sources over old or unofficial material.
+•
+Keep simple answers concise and provide more detail only when needed.
+Suggested user-question patterns
+•
+What information do you have about 30. research?
+•
+Can you explain 30. research at TEKU?
+•
+Where can I get official information about 30. research?
+Fallback behaviour
+If the knowledge base does not contain a reliable answer, the assistant should say so clearly, avoid guessing, and direct
+the user to the appropriate verified TEKU office or official source when available.
+RAG metadata to attach
+Field
+Example
+topic
+30. Research
+academic_year
+current / source year
+source_type
+official / user-supplied
+source_priority
+high / highest
+last_verified
+YYYY-MM-DD
+confidence
+high / medium / low
+
+===== PAGE 65 =====
+
+TEKU AI Assistant — Master Knowledge Book • Project reference
+Page 65
+CHAPTER 31: 31. Student Support
+SOURCE KNOWLEDGE
+Students may require support relating to academics, registration,
+finance, accommodation, examinations, technology, personal welfare,
+or other university matters. The university has appropriate offices
+and personnel responsible for different types of student support.
+The chatbot should identify the student's problem and direct them
+to the appropriate office when the issue requires human intervention.
+Source note: This chapter is derived from the user's supplied TEKU chatbot knowledge documentation. Where the document itself warns that a fact
+is time-sensitive, the chatbot should verify it against the latest official TEKU publication.
+
+===== PAGE 66 =====
+
+TEKU AI Assistant — Master Knowledge Book • Project reference
+Page 66
+CHAPTER 31: CHATBOT IMPLEMENTATION CARD
+Topic: 31. Student Support
+Operational rules
+•
+Answer directly when the knowledge base contains reliable information.
+•
+If the question is ambiguous, ask one short clarifying question.
+•
+Do not invent missing facts.
+•
+Prefer current official TEKU sources over old or unofficial material.
+•
+Keep simple answers concise and provide more detail only when needed.
+Suggested user-question patterns
+•
+What information do you have about 31. student support?
+•
+Can you explain 31. student support at TEKU?
+•
+Where can I get official information about 31. student support?
+Fallback behaviour
+If the knowledge base does not contain a reliable answer, the assistant should say so clearly, avoid guessing, and direct
+the user to the appropriate verified TEKU office or official source when available.
+RAG metadata to attach
+Field
+Example
+topic
+31. Student Support
+academic_year
+current / source year
+source_type
+official / user-supplied
+source_priority
+high / highest
+last_verified
+YYYY-MM-DD
+confidence
+high / medium / low
+
+===== PAGE 67 =====
+
+TEKU AI Assistant — Master Knowledge Book • Project reference
+Page 67
+CHAPTER 32: 32. Academic Advising
+SOURCE KNOWLEDGE
+Students may receive academic guidance from lecturers, academic
+advisors, departments, or other authorized university personnel.
+Academic advising can help students understand course requirements,
+academic progression, program choices, and other academic matters.
+The chatbot can provide general information but should not replace
+an official academic advisor when a student's situation requires an
+individual academic decision.
+Source note: This chapter is derived from the user's supplied TEKU chatbot knowledge documentation. Where the document itself warns that a fact
+is time-sensitive, the chatbot should verify it against the latest official TEKU publication.
+
+===== PAGE 68 =====
+
+TEKU AI Assistant — Master Knowledge Book • Project reference
+Page 68
+CHAPTER 32: CHATBOT IMPLEMENTATION CARD
+Topic: 32. Academic Advising
+Operational rules
+•
+Answer directly when the knowledge base contains reliable information.
+•
+If the question is ambiguous, ask one short clarifying question.
+•
+Do not invent missing facts.
+•
+Prefer current official TEKU sources over old or unofficial material.
+•
+Keep simple answers concise and provide more detail only when needed.
+Suggested user-question patterns
+•
+What information do you have about 32. academic advising?
+•
+Can you explain 32. academic advising at TEKU?
+•
+Where can I get official information about 32. academic advising?
+Fallback behaviour
+If the knowledge base does not contain a reliable answer, the assistant should say so clearly, avoid guessing, and direct
+the user to the appropriate verified TEKU office or official source when available.
+RAG metadata to attach
+Field
+Example
+topic
+32. Academic Advising
+academic_year
+current / source year
+source_type
+official / user-supplied
+source_priority
+high / highest
+last_verified
+YYYY-MM-DD
+confidence
+high / medium / low
+
+===== PAGE 69 =====
+
+TEKU AI Assistant — Master Knowledge Book • Project reference
+Page 69
+CHAPTER 33: 33. Discipline and University Regulations
+SOURCE KNOWLEDGE
+All students are expected to comply with TEKU rules and
+regulations. These rules may cover academic conduct, examinations,
+attendance, use of university facilities, student organizations,
+accommodation, behaviour, and other aspects of university life.
+When a student asks about a disciplinary matter, the chatbot
+should provide general guidance and direct the student to the
+relevant official regulations or university office. It should not
+make a final disciplinary judgment.
+Source note: This chapter is derived from the user's supplied TEKU chatbot knowledge documentation. Where the document itself warns that a fact
+is time-sensitive, the chatbot should verify it against the latest official TEKU publication.
+
+===== PAGE 70 =====
+
+TEKU AI Assistant — Master Knowledge Book • Project reference
+Page 70
+CHAPTER 33: CHATBOT IMPLEMENTATION CARD
+Topic: 33. Discipline and University Regulations
+Operational rules
+•
+Protect personal and authentication information.
+•
+Never request passwords, PINs or one-time passwords.
+•
+Direct users to authenticated official systems for private records.
+•
+Do not expose another student's information.
+•
+Escalate account-specific issues to authorized support.
+Suggested user-question patterns
+•
+What information do you have about 33. discipline and university regulations?
+•
+Can you explain 33. discipline and university regulations at TEKU?
+•
+Where can I get official information about 33. discipline and university regulations?
+Fallback behaviour
+If the knowledge base does not contain a reliable answer, the assistant should say so clearly, avoid guessing, and direct
+the user to the appropriate verified TEKU office or official source when available.
+RAG metadata to attach
+Field
+Example
+topic
+33. Discipline and University Regulations
+academic_year
+current / source year
+source_type
+official / user-supplied
+source_priority
+high / highest
+last_verified
+YYYY-MM-DD
+confidence
+high / medium / low
+
+===== PAGE 71 =====
+
+TEKU AI Assistant — Master Knowledge Book • Project reference
+Page 71
+CHAPTER 34: 34. Health and Welfare
+SOURCE KNOWLEDGE
+Students may need access to health and welfare services while
+studying at the university. The exact services available and
+procedures for accessing them should be confirmed using current
+university information.
+For urgent health or safety situations, students should contact
+the appropriate emergency or professional service rather than relying
+solely on the chatbot.
+Source note: This chapter is derived from the user's supplied TEKU chatbot knowledge documentation. Where the document itself warns that a fact
+is time-sensitive, the chatbot should verify it against the latest official TEKU publication.
+
+===== PAGE 72 =====
+
+TEKU AI Assistant — Master Knowledge Book • Project reference
+Page 72
+CHAPTER 34: CHATBOT IMPLEMENTATION CARD
+Topic: 34. Health and Welfare
+Operational rules
+•
+Give general information only when an official decision is required.
+•
+Avoid making disciplinary, medical or legal judgments.
+•
+Provide the appropriate escalation path when verified.
+•
+Use a calm, respectful and non-alarming tone.
+•
+For urgent situations, direct users to appropriate professional/emergency services.
+Suggested user-question patterns
+•
+What information do you have about 34. health and welfare?
+•
+Can you explain 34. health and welfare at TEKU?
+•
+Where can I get official information about 34. health and welfare?
+Fallback behaviour
+If the knowledge base does not contain a reliable answer, the assistant should say so clearly, avoid guessing, and direct
+the user to the appropriate verified TEKU office or official source when available.
+RAG metadata to attach
+Field
+Example
+topic
+34. Health and Welfare
+academic_year
+current / source year
+source_type
+official / user-supplied
+source_priority
+high / highest
+last_verified
+YYYY-MM-DD
+confidence
+high / medium / low
+
+===== PAGE 73 =====
+
+TEKU AI Assistant — Master Knowledge Book • Project reference
+Page 73
+CHAPTER 35: 35. Communication With the University
+SOURCE KNOWLEDGE
+Students and applicants should use official TEKU communication
+channels when they need authoritative information. This may include
+the university website, admissions office, academic departments,
+finance office, registry, student affairs office, or other designated
+university offices.
+The chatbot should prioritize official university information and
+clearly distinguish official information from general guidance.
+Source note: This chapter is derived from the user's supplied TEKU chatbot knowledge documentation. Where the document itself warns that a fact
+is time-sensitive, the chatbot should verify it against the latest official TEKU publication.
+
+===== PAGE 74 =====
+
+TEKU AI Assistant — Master Knowledge Book • Project reference
+Page 74
+CHAPTER 35: CHATBOT IMPLEMENTATION CARD
+Topic: 35. Communication With the University
+Operational rules
+•
+Protect personal and authentication information.
+•
+Never request passwords, PINs or one-time passwords.
+•
+Direct users to authenticated official systems for private records.
+•
+Do not expose another student's information.
+•
+Escalate account-specific issues to authorized support.
+Suggested user-question patterns
+•
+What information do you have about 35. communication with the university?
+•
+Can you explain 35. communication with the university at TEKU?
+•
+Where can I get official information about 35. communication with the university?
+Fallback behaviour
+If the knowledge base does not contain a reliable answer, the assistant should say so clearly, avoid guessing, and direct
+the user to the appropriate verified TEKU office or official source when available.
+RAG metadata to attach
+Field
+Example
+topic
+35. Communication With the University
+academic_year
+current / source year
+source_type
+official / user-supplied
+source_priority
+high / highest
+last_verified
+YYYY-MM-DD
+confidence
+high / medium / low
+
+===== PAGE 75 =====
+
+TEKU AI Assistant — Master Knowledge Book • Project reference
+Page 75
+CHAPTER 36: 36. Frequently Asked Questions
+SOURCE KNOWLEDGE
+When a user asks, "What is TEKU?" the chatbot should
+explain that TEKU stands for Teofilo Kisanji University, a university
+located in Mbeya, Tanzania.
+When a user asks, "Where is TEKU located?" the chatbot
+should answer that Teofilo Kisanji University is located in Mbeya,
+Tanzania.
+When a user asks, "How can I apply to TEKU?" the chatbot
+should explain that applicants should use the university's current
+official application procedure and should first select the desired
+program and confirm the admission requirements.
+When a user asks, "What courses does TEKU offer?" the
+chatbot should explain that the university offers programs across
+several academic and professional fields, but the exact current list
+should be checked against the latest official prospectus or
+admissions information.
+When a user asks, "How much are TEKU fees?" the chatbot
+should explain that fees depend on the program and level of study and
+should provide the current official fee structure if available.
+When a user asks, "Can I study Computer Science at TEKU?"
+the chatbot should verify whether Computer Science is included in the
+current academic programs before giving a definitive answer.
+When a user asks, "How do I check my admission status?"
+the chatbot should direct the applicant to the official admission
+system or admissions office and should not request confidential
+passwords.
+When a user asks, "How do I check my results?" the
+chatbot should direct the student to the official student or academic
+results system and should explain that private results should only be
+accessed through authenticated university channels.
+When a user asks, "Where can I get help with fees?" the
+chatbot should direct the student to the university finance or
+relevant administrative office.
+When a user asks, "I forgot my student portal password,"
+the chatbot should recommend using the official password-reset
+procedure or contacting the university's authorized technical-support
+
+===== PAGE 76 =====
+
+TEKU AI Assistant — Master Knowledge Book • Project reference
+Page 76
+office. The chatbot should never ask the student to provide their
+password.
+Source note: This chapter is derived from the user's supplied TEKU chatbot knowledge documentation. Where the document itself warns that a fact
+is time-sensitive, the chatbot should verify it against the latest official TEKU publication.
+
+===== PAGE 77 =====
+
+TEKU AI Assistant — Master Knowledge Book • Project reference
+Page 77
+CHAPTER 36: CHATBOT IMPLEMENTATION CARD
+Topic: 36. Frequently Asked Questions
+Operational rules
+•
+Answer directly when the knowledge base contains reliable information.
+•
+If the question is ambiguous, ask one short clarifying question.
+•
+Do not invent missing facts.
+•
+Prefer current official TEKU sources over old or unofficial material.
+•
+Keep simple answers concise and provide more detail only when needed.
+Suggested user-question patterns
+•
+What information do you have about 36. frequently asked questions?
+•
+Can you explain 36. frequently asked questions at TEKU?
+•
+Where can I get official information about 36. frequently asked questions?
+Fallback behaviour
+If the knowledge base does not contain a reliable answer, the assistant should say so clearly, avoid guessing, and direct
+the user to the appropriate verified TEKU office or official source when available.
+RAG metadata to attach
+Field
+Example
+topic
+36. Frequently Asked Questions
+academic_year
+current / source year
+source_type
+official / user-supplied
+source_priority
+high / highest
+last_verified
+YYYY-MM-DD
+confidence
+high / medium / low
+
+===== PAGE 78 =====
+
+TEKU AI Assistant — Master Knowledge Book • Project reference
+Page 78
+CHAPTER 37: 37. Chatbot Behaviour
+SOURCE KNOWLEDGE
+The TEKU chatbot should communicate politely, clearly, and
+professionally. It should use simple language whenever possible and
+should avoid unnecessarily complicated academic terminology.
+The chatbot should first understand what the user is asking before
+providing an answer. If the question is unclear, the chatbot should
+ask a short clarifying question. For example, if a user asks, "What
+are the requirements?" the chatbot should ask, "Which
+program and level are you interested in?"
+The chatbot should provide direct answers whenever reliable
+information is available. It should not make up information when the
+required information is unavailable. Instead, it should explain what
+is known and direct the user to the appropriate university office or
+official source.
+Source note: This chapter is derived from the user's supplied TEKU chatbot knowledge documentation. Where the document itself warns that a fact
+is time-sensitive, the chatbot should verify it against the latest official TEKU publication.
+
+===== PAGE 79 =====
+
+TEKU AI Assistant — Master Knowledge Book • Project reference
+Page 79
+CHAPTER 37: CHATBOT IMPLEMENTATION CARD
+Topic: 37. Chatbot Behaviour
+Operational rules
+•
+Answer directly when the knowledge base contains reliable information.
+•
+If the question is ambiguous, ask one short clarifying question.
+•
+Do not invent missing facts.
+•
+Prefer current official TEKU sources over old or unofficial material.
+•
+Keep simple answers concise and provide more detail only when needed.
+Suggested user-question patterns
+•
+What information do you have about 37. chatbot behaviour?
+•
+Can you explain 37. chatbot behaviour at TEKU?
+•
+Where can I get official information about 37. chatbot behaviour?
+Fallback behaviour
+If the knowledge base does not contain a reliable answer, the assistant should say so clearly, avoid guessing, and direct
+the user to the appropriate verified TEKU office or official source when available.
+RAG metadata to attach
+Field
+Example
+topic
+37. Chatbot Behaviour
+academic_year
+current / source year
+source_type
+official / user-supplied
+source_priority
+high / highest
+last_verified
+YYYY-MM-DD
+confidence
+high / medium / low
+
+===== PAGE 80 =====
+
+TEKU AI Assistant — Master Knowledge Book • Project reference
+Page 80
+CHAPTER 38: 38. Handling Outdated Information
+SOURCE KNOWLEDGE
+University information can change. Programs may be introduced or
+discontinued, fees may change, admission requirements may be updated,
+and academic calendars may be revised.
+The chatbot should therefore treat information containing dates,
+prices, deadlines, program availability, contacts, and admission
+requirements as time-sensitive. When possible, the chatbot's
+knowledge base should be updated whenever TEKU publishes new official
+information.
+If the chatbot is uncertain whether information is current, it
+should say so rather than presenting potentially outdated information
+as fact.
+Source note: This chapter is derived from the user's supplied TEKU chatbot knowledge documentation. Where the document itself warns that a fact
+is time-sensitive, the chatbot should verify it against the latest official TEKU publication.
+
+===== PAGE 81 =====
+
+TEKU AI Assistant — Master Knowledge Book • Project reference
+Page 81
+CHAPTER 38: CHATBOT IMPLEMENTATION CARD
+Topic: 38. Handling Outdated Information
+Operational rules
+•
+Answer directly when the knowledge base contains reliable information.
+•
+If the question is ambiguous, ask one short clarifying question.
+•
+Do not invent missing facts.
+•
+Prefer current official TEKU sources over old or unofficial material.
+•
+Keep simple answers concise and provide more detail only when needed.
+Suggested user-question patterns
+•
+What information do you have about 38. handling outdated information?
+•
+Can you explain 38. handling outdated information at TEKU?
+•
+Where can I get official information about 38. handling outdated information?
+Fallback behaviour
+If the knowledge base does not contain a reliable answer, the assistant should say so clearly, avoid guessing, and direct
+the user to the appropriate verified TEKU office or official source when available.
+RAG metadata to attach
+Field
+Example
+topic
+38. Handling Outdated Information
+academic_year
+current / source year
+source_type
+official / user-supplied
+source_priority
+high / highest
+last_verified
+YYYY-MM-DD
+confidence
+high / medium / low
+
+===== PAGE 82 =====
+
+TEKU AI Assistant — Master Knowledge Book • Project reference
+Page 82
+CHAPTER 39: 39. Privacy and Security
+SOURCE KNOWLEDGE
+The chatbot should protect student and applicant privacy. It
+should never request passwords, PINs, one-time passwords, bank card
+numbers, or other confidential credentials.
+If the chatbot is connected to a university database, access to
+personal information should require appropriate authentication and
+authorization. The chatbot should only provide personal academic
+information to the authenticated person who is authorized to access
+it.
+Source note: This chapter is derived from the user's supplied TEKU chatbot knowledge documentation. Where the document itself warns that a fact
+is time-sensitive, the chatbot should verify it against the latest official TEKU publication.
+
+===== PAGE 83 =====
+
+TEKU AI Assistant — Master Knowledge Book • Project reference
+Page 83
+CHAPTER 39: CHATBOT IMPLEMENTATION CARD
+Topic: 39. Privacy and Security
+Operational rules
+•
+Protect personal and authentication information.
+•
+Never request passwords, PINs or one-time passwords.
+•
+Direct users to authenticated official systems for private records.
+•
+Do not expose another student's information.
+•
+Escalate account-specific issues to authorized support.
+Suggested user-question patterns
+•
+What information do you have about 39. privacy and security?
+•
+Can you explain 39. privacy and security at TEKU?
+•
+Where can I get official information about 39. privacy and security?
+Fallback behaviour
+If the knowledge base does not contain a reliable answer, the assistant should say so clearly, avoid guessing, and direct
+the user to the appropriate verified TEKU office or official source when available.
+RAG metadata to attach
+Field
+Example
+topic
+39. Privacy and Security
+academic_year
+current / source year
+source_type
+official / user-supplied
+source_priority
+high / highest
+last_verified
+YYYY-MM-DD
+confidence
+high / medium / low
+
+===== PAGE 84 =====
+
+TEKU AI Assistant — Master Knowledge Book • Project reference
+Page 84
+CHAPTER 40: 40. Escalation to Human Staff
+SOURCE KNOWLEDGE
+Some questions require university staff rather than an automated
+chatbot. These include disputes over examination results,
+disciplinary cases, admission appeals, payment disputes, confidential
+student records, complex registration problems, official complaints,
+and technical problems that cannot be resolved through standard
+instructions.
+When escalation is necessary, the chatbot should explain why human
+assistance is required and provide the relevant university office or
+official contact method when that information is available.
+Source note: This chapter is derived from the user's supplied TEKU chatbot knowledge documentation. Where the document itself warns that a fact
+is time-sensitive, the chatbot should verify it against the latest official TEKU publication.
+
+===== PAGE 85 =====
+
+TEKU AI Assistant — Master Knowledge Book • Project reference
+Page 85
+CHAPTER 40: CHATBOT IMPLEMENTATION CARD
+Topic: 40. Escalation to Human Staff
+Operational rules
+•
+Answer directly when the knowledge base contains reliable information.
+•
+If the question is ambiguous, ask one short clarifying question.
+•
+Do not invent missing facts.
+•
+Prefer current official TEKU sources over old or unofficial material.
+•
+Keep simple answers concise and provide more detail only when needed.
+Suggested user-question patterns
+•
+What information do you have about 40. escalation to human staff?
+•
+Can you explain 40. escalation to human staff at TEKU?
+•
+Where can I get official information about 40. escalation to human staff?
+Fallback behaviour
+If the knowledge base does not contain a reliable answer, the assistant should say so clearly, avoid guessing, and direct
+the user to the appropriate verified TEKU office or official source when available.
+RAG metadata to attach
+Field
+Example
+topic
+40. Escalation to Human Staff
+academic_year
+current / source year
+source_type
+official / user-supplied
+source_priority
+high / highest
+last_verified
+YYYY-MM-DD
+confidence
+high / medium / low
+
+===== PAGE 86 =====
+
+TEKU AI Assistant — Master Knowledge Book • Project reference
+Page 86
+CHAPTER 41: 41. Recommended Chatbot Response
+Style
+SOURCE KNOWLEDGE
+The chatbot should respond in a friendly and professional manner.
+A typical response should begin with a direct answer, followed by a
+short explanation and, when appropriate, the next step the user
+should take.
+For example, if a student asks about admission requirements, the
+chatbot should identify the program and level, explain the applicable
+requirements, and then tell the student how to proceed with the
+application.
+The chatbot should avoid unnecessarily long answers to simple
+questions. However, when a student asks for detailed guidance, the
+chatbot should provide the information in an organized manner using
+headings, numbered steps, or short paragraphs.
+Source note: This chapter is derived from the user's supplied TEKU chatbot knowledge documentation. Where the document itself warns that a fact
+is time-sensitive, the chatbot should verify it against the latest official TEKU publication.
+
+===== PAGE 87 =====
+
+TEKU AI Assistant — Master Knowledge Book • Project reference
+Page 87
+CHAPTER 41: CHATBOT IMPLEMENTATION CARD
+Topic: 41. Recommended Chatbot Response Style
+Operational rules
+•
+Answer directly when the knowledge base contains reliable information.
+•
+If the question is ambiguous, ask one short clarifying question.
+•
+Do not invent missing facts.
+•
+Prefer current official TEKU sources over old or unofficial material.
+•
+Keep simple answers concise and provide more detail only when needed.
+Suggested user-question patterns
+•
+What information do you have about 41. recommended chatbot response style?
+•
+Can you explain 41. recommended chatbot response style at TEKU?
+•
+Where can I get official information about 41. recommended chatbot response style?
+Fallback behaviour
+If the knowledge base does not contain a reliable answer, the assistant should say so clearly, avoid guessing, and direct
+the user to the appropriate verified TEKU office or official source when available.
+RAG metadata to attach
+Field
+Example
+topic
+41. Recommended Chatbot Response Style
+academic_year
+current / source year
+source_type
+official / user-supplied
+source_priority
+high / highest
+last_verified
+YYYY-MM-DD
+confidence
+high / medium / low
+
+===== PAGE 88 =====
+
+TEKU AI Assistant — Master Knowledge Book • Project reference
+Page 88
+CHAPTER 42: 42. Knowledge Priority
+SOURCE KNOWLEDGE
+When multiple sources contain different information, the chatbot
+should prioritize the most recent official information published by
+Teofilo Kisanji University. Official university publications,
+prospectuses, admission notices, academic calendars, fee structures,
+regulations, and official announcements should take priority over
+unofficial websites, social-media comments, student rumours, or old
+documents.
+The chatbot should clearly communicate uncertainty when official
+information is unavailable.
+Source note: This chapter is derived from the user's supplied TEKU chatbot knowledge documentation. Where the document itself warns that a fact
+is time-sensitive, the chatbot should verify it against the latest official TEKU publication.
+
+===== PAGE 89 =====
+
+TEKU AI Assistant — Master Knowledge Book • Project reference
+Page 89
+CHAPTER 42: CHATBOT IMPLEMENTATION CARD
+Topic: 42. Knowledge Priority
+Operational rules
+•
+Protect personal and authentication information.
+•
+Never request passwords, PINs or one-time passwords.
+•
+Direct users to authenticated official systems for private records.
+•
+Do not expose another student's information.
+•
+Escalate account-specific issues to authorized support.
+Suggested user-question patterns
+•
+What information do you have about 42. knowledge priority?
+•
+Can you explain 42. knowledge priority at TEKU?
+•
+Where can I get official information about 42. knowledge priority?
+Fallback behaviour
+If the knowledge base does not contain a reliable answer, the assistant should say so clearly, avoid guessing, and direct
+the user to the appropriate verified TEKU office or official source when available.
+RAG metadata to attach
+Field
+Example
+topic
+42. Knowledge Priority
+academic_year
+current / source year
+source_type
+official / user-supplied
+source_priority
+high / highest
+last_verified
+YYYY-MM-DD
+confidence
+high / medium / low
+
+===== PAGE 90 =====
+
+TEKU AI Assistant — Master Knowledge Book • Project reference
+Page 90
+CHAPTER 43: 43. General Contact Guidance
+SOURCE KNOWLEDGE
+For matters that cannot be answered using the chatbot's knowledge
+base, users should be directed to the appropriate official TEKU
+office. Depending on the issue, this may include admissions,
+registry, finance, academic departments, student affairs, library
+services, information technology support, or university
+administration.
+The chatbot should provide contact details only when they have
+been verified as current. It should not invent telephone numbers,
+email addresses, physical addresses, payment details, or names of
+university officials.
+Source note: This chapter is derived from the user's supplied TEKU chatbot knowledge documentation. Where the document itself warns that a fact
+is time-sensitive, the chatbot should verify it against the latest official TEKU publication.
+
+===== PAGE 91 =====
+
+TEKU AI Assistant — Master Knowledge Book • Project reference
+Page 91
+CHAPTER 43: CHATBOT IMPLEMENTATION CARD
+Topic: 43. General Contact Guidance
+Operational rules
+•
+Answer directly when the knowledge base contains reliable information.
+•
+If the question is ambiguous, ask one short clarifying question.
+•
+Do not invent missing facts.
+•
+Prefer current official TEKU sources over old or unofficial material.
+•
+Keep simple answers concise and provide more detail only when needed.
+Suggested user-question patterns
+•
+What information do you have about 43. general contact guidance?
+•
+Can you explain 43. general contact guidance at TEKU?
+•
+Where can I get official information about 43. general contact guidance?
+Fallback behaviour
+If the knowledge base does not contain a reliable answer, the assistant should say so clearly, avoid guessing, and direct
+the user to the appropriate verified TEKU office or official source when available.
+RAG metadata to attach
+Field
+Example
+topic
+43. General Contact Guidance
+academic_year
+current / source year
+source_type
+official / user-supplied
+source_priority
+high / highest
+last_verified
+YYYY-MM-DD
+confidence
+high / medium / low
+
+===== PAGE 92 =====
+
+TEKU AI Assistant — Master Knowledge Book • Project reference
+Page 92
+CHAPTER 44: 44. Final Purpose of the Chatbot
+SOURCE KNOWLEDGE
+The purpose of the TEKU chatbot is to make university information
+easier to access. It should help prospective students understand
+available programs and admission procedures, help current students
+find information about university services and academic procedures,
+and help visitors and members of the public obtain general
+information about the institution.
+The chatbot is an information and assistance system and should not
+replace official university decision-making. Where an issue requires
+an official decision, verification of personal information, payment
+confirmation, disciplinary judgment, academic judgment, or other
+administrative action, the chatbot should direct the user to the
+appropriate authorized TEKU office.
+Source note: This chapter is derived from the user's supplied TEKU chatbot knowledge documentation. Where the document itself warns that a fact
+is time-sensitive, the chatbot should verify it against the latest official TEKU publication.
+
+===== PAGE 93 =====
+
+TEKU AI Assistant — Master Knowledge Book • Project reference
+Page 93
+CHAPTER 44: CHATBOT IMPLEMENTATION CARD
+Topic: 44. Final Purpose of the Chatbot
+Operational rules
+•
+Answer directly when the knowledge base contains reliable information.
+•
+If the question is ambiguous, ask one short clarifying question.
+•
+Do not invent missing facts.
+•
+Prefer current official TEKU sources over old or unofficial material.
+•
+Keep simple answers concise and provide more detail only when needed.
+Suggested user-question patterns
+•
+What information do you have about 44. final purpose of the chatbot?
+•
+Can you explain 44. final purpose of the chatbot at TEKU?
+•
+Where can I get official information about 44. final purpose of the chatbot?
+Fallback behaviour
+If the knowledge base does not contain a reliable answer, the assistant should say so clearly, avoid guessing, and direct
+the user to the appropriate verified TEKU office or official source when available.
+RAG metadata to attach
+Field
+Example
+topic
+44. Final Purpose of the Chatbot
+academic_year
+current / source year
+source_type
+official / user-supplied
+source_priority
+high / highest
+last_verified
+YYYY-MM-DD
+confidence
+high / medium / low
+
+===== PAGE 94 =====
+
+TEKU AI Assistant — Master Knowledge Book • Project reference
+Page 94
+CHAPTER 45: 45. Summary
+SOURCE KNOWLEDGE
+Teofilo Kisanji University is a higher-learning institution
+located in Mbeya, Tanzania, with a background associated with the
+Moravian Church in Tanzania. The university provides higher education
+and supports teaching, research, innovation, professional
+development, and community service.
+A TEKU chatbot should provide accurate, clear, respectful, and
+useful information to applicants, students, staff, parents, visitors,
+and members of the public. It should answer common questions about
+the university while recognizing that information such as programs,
+fees, admission requirements, deadlines, contacts, and academic
+calendars can change. The chatbot should therefore rely on the latest
+verified university information and should refer users to official
+university offices whenever a question requires authoritative
+confirmation or human intervention.
+Source note: This chapter is derived from the user's supplied TEKU chatbot knowledge documentation. Where the document itself warns that a fact
+is time-sensitive, the chatbot should verify it against the latest official TEKU publication.
+
+===== PAGE 95 =====
+
+TEKU AI Assistant — Master Knowledge Book • Project reference
+Page 95
+CHAPTER 45: CHATBOT IMPLEMENTATION CARD
+Topic: 45. Summary
+Operational rules
+•
+Answer directly when the knowledge base contains reliable information.
+•
+If the question is ambiguous, ask one short clarifying question.
+•
+Do not invent missing facts.
+•
+Prefer current official TEKU sources over old or unofficial material.
+•
+Keep simple answers concise and provide more detail only when needed.
+Suggested user-question patterns
+•
+What information do you have about 45. summary?
+•
+Can you explain 45. summary at TEKU?
+•
+Where can I get official information about 45. summary?
+Fallback behaviour
+If the knowledge base does not contain a reliable answer, the assistant should say so clearly, avoid guessing, and direct
+the user to the appropriate verified TEKU office or official source when available.
+RAG metadata to attach
+Field
+Example
+topic
+45. Summary
+academic_year
+current / source year
+source_type
+official / user-supplied
+source_priority
+high / highest
+last_verified
+YYYY-MM-DD
+confidence
+high / medium / low
+
+===== PAGE 96 =====
+
+TEKU AI Assistant — Master Knowledge Book • Project reference
+Page 96
+CURRENT OFFICIAL WEB UPDATE 1: Current official
+download centre
+TEKU's official download centre currently lists 2026/2027 admission and joining instructions for certificate programmes,
+continuing diploma students, all bachelor degree admissions, BSc Computer Science, BSc with Education, BSc
+Environmental Science, BHRM, BA Economics, BA with Education, BA Social Work, BA Community Development,
+Bachelor of Divinity, Diploma in Theology, and health certificate programmes.
+Chatbot handling: Store this item with its source URL, academic year/date, and verification date. Do not merge it silently
+with older documents when values differ.
+Official reference: https://www.teku.ac.tz/downloadcentre.php and related official TEKU pages.
+
+===== PAGE 97 =====
+
+TEKU AI Assistant — Master Knowledge Book • Project reference
+Page 97
+CURRENT OFFICIAL WEB UPDATE 2: 2026/2027
+undergraduate admission snapshot
+The official undergraduate admission-letter template states that the 2026/2027 degree programme is full-time and three
+years, with reporting/registration scheduled for 19 October 2026, orientation 26–30 October 2026, and classes
+commencing 2 November 2026. Registration requires original academic certificates, passport photographs, birth
+certificate or NIDA, sponsor confirmation where applicable, medical form, and proof of first-installment payment.
+Chatbot handling: Store this item with its source URL, academic year/date, and verification date. Do not merge it silently
+with older documents when values differ.
+Official reference: https://www.teku.ac.tz/downloadcentre.php and related official TEKU pages.
+
+===== PAGE 98 =====
+
+TEKU AI Assistant — Master Knowledge Book • Project reference
+Page 98
+CURRENT OFFICIAL WEB UPDATE 3: 2026/2027
+academic calendar snapshot
+The official 2025/2026 Almanac published by TEKU also includes forward dates into the 2026/2027 academic year:
+reporting and registration for new students is scheduled for 19–23 October 2026, orientation for first-year students for
+21–23 October, continuing-student registration for 26–27 October, and classes begin 28 October 2026 in that Almanac.
+This conflicts with the separate undergraduate admission-letter template, which says classes begin 2 November 2026.
+The chatbot must therefore preserve the source/date and ask users to rely on the latest programme-specific joining
+instruction.
+Chatbot handling: Store this item with its source URL, academic year/date, and verification date. Do not merge it silently
+with older documents when values differ.
+Official reference: https://www.teku.ac.tz/downloadcentre.php and related official TEKU pages.
+
+===== PAGE 99 =====
+
+TEKU AI Assistant — Master Knowledge Book • Project reference
+Page 99
+CURRENT OFFICIAL WEB UPDATE 4: Current
+programme/fee snapshot
+TEKU's current fee-structure page lists annual fees for certificate, diploma, bachelor and postgraduate programmes.
+Examples include BSc Computer Science at TZS 1,500,000, BSc with Education at TZS 1,500,000, BA with Education at
+TZS 1,200,000, Bachelor of Divinity at TZS 600,000, PGDE at TZS 2,200,000, Master of Theology at TZS 3,200,000 and
+PhD in Theology at TZS 7,500,000. Programme-specific joining instructions may contain additional charges and
+instalment schedules, so the chatbot should not treat a simple annual tuition figure as the complete cost.
+Chatbot handling: Store this item with its source URL, academic year/date, and verification date. Do not merge it silently
+with older documents when values differ.
+Official reference: https://www.teku.ac.tz/downloadcentre.php and related official TEKU pages.
+
+===== PAGE 100 =====
+
+TEKU AI Assistant — Master Knowledge Book • Project reference
+Page 100
+CURRENT OFFICIAL WEB UPDATE 5: Source conflict
+policy
+The website currently contains information from different academic years and pages that do not always agree. The
+chatbot knowledge base should therefore store academic year, source URL/document, publication/update date when
+available, programme, and source priority. Newer official programme-specific joining instructions should normally outrank
+older general fee pages, while conflicting current official documents should be presented as a discrepancy rather than
+silently reconciled.
+Chatbot handling: Store this item with its source URL, academic year/date, and verification date. Do not merge it silently
+with older documents when values differ.
+Official reference: https://www.teku.ac.tz/downloadcentre.php and related official TEKU pages.
+
+===== PAGE 101 =====
+
+TEKU AI Assistant — Master Knowledge Book • Project reference
+Page 101
+APPENDIX A — RAG DOCUMENT METADATA SCHEMA
+• Every document chunk should carry: document_id, title, section, programme, academic_year, source_url, source_type,
+publication_date, last_verified, priority, language, and chunk_id.
+• Time-sensitive facts should additionally carry effective_from and effective_to where known.
+• Fees should be represented as structured records rather than only free text: programme, level, academic_year,
+fee_item, amount_tzs, payment_period, source_document and verification_date.
+• Admission requirements should be linked to programme and level so that the chatbot does not apply one programme's
+requirements to another.
+
+===== PAGE 102 =====
+
+TEKU AI Assistant — Master Knowledge Book • Project reference
+Page 102
+APPENDIX B — ANSWER GENERATION POLICY
+• Answer from retrieved TEKU evidence first. Gemini should be the language generator, not the authority on TEKU facts.
+• When evidence is missing, say that the information is not available in the current knowledge base.
+• For fees, deadlines, programme availability, admission requirements and contact details, prefer current official sources.
+• When two official current sources disagree, state the discrepancy and recommend the latest programme-specific
+instruction or direct verification with the responsible office.
+• Never expose private student records or ask for passwords, PINs, OTPs or confidential credentials.
+
+===== PAGE 103 =====
+
+TEKU AI Assistant — Master Knowledge Book • Project reference
+Page 103
+APPENDIX C — FAQ COVERAGE PLAN
+• Identity: What is TEKU? Where is it located? Who owns it? What is its history?
+• Admissions: How do I apply? What are requirements? What documents do I bring? When is registration?
+• Programmes: Does TEKU offer Computer Science? Which faculties exist? What postgraduate programmes are
+available?
+• Fees: How much is tuition? What other charges apply? Can I pay in instalments? How do I obtain a control number?
+• Student services: library, accommodation, IT systems, academic advising, student organizations, examination and
+results procedures.
+• Safety and privacy: what the chatbot can answer, what must be escalated, and what confidential information must never
+be requested.
+
+===== PAGE 104 =====
+
+TEKU AI Assistant — Master Knowledge Book • Project reference
+Page 104
+APPENDIX D — DEPLOYMENT PREPARATION
+• Development stack: Python, Jupyter Notebook, Gemini API, retrieval layer, Streamlit UI and GitHub.
+• Secrets: keep GEMINI_API_KEY outside source control; use local environment variables during development and
+deployment secrets in the hosting platform.
+• Recommended repository structure: app.py, notebooks/, src/, data/raw/, data/processed/, assets/, requirements.txt and
+.gitignore.
+• Before deployment, run a test set covering admission, fees, programme availability, contacts, academic calendar,
+privacy and escalation.
+
+===== PAGE 105 =====
+
+TEKU AI Assistant — Master Knowledge Book • Project reference
+Page 105
+APPENDIX E — VERSIONING STRATEGY
+• Create a new knowledge snapshot whenever TEKU publishes a new prospectus, fee structure, joining instruction or
+academic calendar.
+• Do not overwrite old documents without preserving their academic year. Historical documents can still be useful when a
+user asks about a previous cohort.
+• Use a source-priority rule and explicit last-verified date so the assistant can explain why it chose one source over
+another.
+
+===== PAGE 106 =====
+
+TEKU AI Assistant — Master Knowledge Book • Project reference
+Page 106
+APPENDIX F1 — CHATBOT GLOSSARY & QUERY
+NORMALIZATION
+TEKU — Store common spelling variations and Swahili/English paraphrases as retrieval aliases. Link the alias to the
+canonical TEKU concept 'TEKU'.
+Teofilo Kisanji University — Store common spelling variations and Swahili/English paraphrases as retrieval aliases.
+Link the alias to the canonical TEKU concept 'Teofilo Kisanji University'.
+Moravian Church — Store common spelling variations and Swahili/English paraphrases as retrieval aliases. Link the
+alias to the canonical TEKU concept 'Moravian Church'.
+TCU — Store common spelling variations and Swahili/English paraphrases as retrieval aliases. Link the alias to the
+canonical TEKU concept 'TCU'.
+admission — Store common spelling variations and Swahili/English paraphrases as retrieval aliases. Link the alias to the
+canonical TEKU concept 'admission'.
+joining instructions — Store common spelling variations and Swahili/English paraphrases as retrieval aliases. Link the
+alias to the canonical TEKU concept 'joining instructions'.
+registration — Store common spelling variations and Swahili/English paraphrases as retrieval aliases. Link the alias to
+the canonical TEKU concept 'registration'.
+orientation — Store common spelling variations and Swahili/English paraphrases as retrieval aliases. Link the alias to
+the canonical TEKU concept 'orientation'.
+tuition — Store common spelling variations and Swahili/English paraphrases as retrieval aliases. Link the alias to the
+canonical TEKU concept 'tuition'.
+instalment — Store common spelling variations and Swahili/English paraphrases as retrieval aliases. Link the alias to
+the canonical TEKU concept 'instalment'.
+control number — Store common spelling variations and Swahili/English paraphrases as retrieval aliases. Link the alias
+to the canonical TEKU concept 'control number'.
+TEKUSO — Store common spelling variations and Swahili/English paraphrases as retrieval aliases. Link the alias to the
+canonical TEKU concept 'TEKUSO'.
+NHIF — Store common spelling variations and Swahili/English paraphrases as retrieval aliases. Link the alias to the
+canonical TEKU concept 'NHIF'.
+BSc Computer Science — Store common spelling variations and Swahili/English paraphrases as retrieval aliases. Link
+the alias to the canonical TEKU concept 'BSc Computer Science'.
+BSc with Education — Store common spelling variations and Swahili/English paraphrases as retrieval aliases. Link the
+alias to the canonical TEKU concept 'BSc with Education'.
+BSc Environmental Science — Store common spelling variations and Swahili/English paraphrases as retrieval aliases.
+Link the alias to the canonical TEKU concept 'BSc Environmental Science'.
+BHRM — Store common spelling variations and Swahili/English paraphrases as retrieval aliases. Link the alias to the
+canonical TEKU concept 'BHRM'.
+BA Economics — Store common spelling variations and Swahili/English paraphrases as retrieval aliases. Link the alias
+to the canonical TEKU concept 'BA Economics'.
+BA Education — Store common spelling variations and Swahili/English paraphrases as retrieval aliases. Link the alias to
+the canonical TEKU concept 'BA Education'.
+BA Social Work — Store common spelling variations and Swahili/English paraphrases as retrieval aliases. Link the alias
+to the canonical TEKU concept 'BA Social Work'.
+BA Community Development — Store common spelling variations and Swahili/English paraphrases as retrieval aliases.
+Link the alias to the canonical TEKU concept 'BA Community Development'.
+
+===== PAGE 107 =====
+
+TEKU AI Assistant — Master Knowledge Book • Project reference
+Page 107
+Bachelor of Divinity — Store common spelling variations and Swahili/English paraphrases as retrieval aliases. Link the
+alias to the canonical TEKU concept 'Bachelor of Divinity'.
+Diploma in Theology — Store common spelling variations and Swahili/English paraphrases as retrieval aliases. Link the
+alias to the canonical TEKU concept 'Diploma in Theology'.
+PGDE — Store common spelling variations and Swahili/English paraphrases as retrieval aliases. Link the alias to the
+canonical TEKU concept 'PGDE'.
+Master of Education — Store common spelling variations and Swahili/English paraphrases as retrieval aliases. Link the
+alias to the canonical TEKU concept 'Master of Education'.
+Master of Theology — Store common spelling variations and Swahili/English paraphrases as retrieval aliases. Link the
+alias to the canonical TEKU concept 'Master of Theology'.
+PhD Theology — Store common spelling variations and Swahili/English paraphrases as retrieval aliases. Link the alias
+to the canonical TEKU concept 'PhD Theology'.
+library — Store common spelling variations and Swahili/English paraphrases as retrieval aliases. Link the alias to the
+canonical TEKU concept 'library'.
+TAIS — Store common spelling variations and Swahili/English paraphrases as retrieval aliases. Link the alias to the
+canonical TEKU concept 'TAIS'.
+TOAS — Store common spelling variations and Swahili/English paraphrases as retrieval aliases. Link the alias to the
+canonical TEKU concept 'TOAS'.
+IT Unit — Store common spelling variations and Swahili/English paraphrases as retrieval aliases. Link the alias to the
+canonical TEKU concept 'IT Unit'.
+Quality Assurance — Store common spelling variations and Swahili/English paraphrases as retrieval aliases. Link the
+alias to the canonical TEKU concept 'Quality Assurance'.
+student advisor — Store common spelling variations and Swahili/English paraphrases as retrieval aliases. Link the alias
+to the canonical TEKU concept 'student advisor'.
+hostel — Store common spelling variations and Swahili/English paraphrases as retrieval aliases. Link the alias to the
+canonical TEKU concept 'hostel'.
+academic calendar — Store common spelling variations and Swahili/English paraphrases as retrieval aliases. Link the
+alias to the canonical TEKU concept 'academic calendar'.
+examination — Store common spelling variations and Swahili/English paraphrases as retrieval aliases. Link the alias to
+the canonical TEKU concept 'examination'.
+results — Store common spelling variations and Swahili/English paraphrases as retrieval aliases. Link the alias to the
+canonical TEKU concept 'results'.
+privacy — Store common spelling variations and Swahili/English paraphrases as retrieval aliases. Link the alias to the
+canonical TEKU concept 'privacy'.
+escalation — Store common spelling variations and Swahili/English paraphrases as retrieval aliases. Link the alias to the
+canonical TEKU concept 'escalation'.
+RAG — Store common spelling variations and Swahili/English paraphrases as retrieval aliases. Link the alias to the
+canonical TEKU concept 'RAG'.
+embedding — Store common spelling variations and Swahili/English paraphrases as retrieval aliases. Link the alias to
+the canonical TEKU concept 'embedding'.
+vector database — Store common spelling variations and Swahili/English paraphrases as retrieval aliases. Link the alias
+to the canonical TEKU concept 'vector database'.
+Gemini API — Store common spelling variations and Swahili/English paraphrases as retrieval aliases. Link the alias to
+the canonical TEKU concept 'Gemini API'.
+
+===== PAGE 108 =====
+
+TEKU AI Assistant — Master Knowledge Book • Project reference
+Page 108
+Streamlit — Store common spelling variations and Swahili/English paraphrases as retrieval aliases. Link the alias to the
+canonical TEKU concept 'Streamlit'.
+
+===== PAGE 109 =====
+
+TEKU AI Assistant — Master Knowledge Book • Project reference
+Page 109
+APPENDIX F2 — CHATBOT GLOSSARY & QUERY
+NORMALIZATION
+TEKU — Store common spelling variations and Swahili/English paraphrases as retrieval aliases. Link the alias to the
+canonical TEKU concept 'TEKU'.
+Teofilo Kisanji University — Store common spelling variations and Swahili/English paraphrases as retrieval aliases.
+Link the alias to the canonical TEKU concept 'Teofilo Kisanji University'.
+Moravian Church — Store common spelling variations and Swahili/English paraphrases as retrieval aliases. Link the
+alias to the canonical TEKU concept 'Moravian Church'.
+TCU — Store common spelling variations and Swahili/English paraphrases as retrieval aliases. Link the alias to the
+canonical TEKU concept 'TCU'.
+admission — Store common spelling variations and Swahili/English paraphrases as retrieval aliases. Link the alias to the
+canonical TEKU concept 'admission'.
+joining instructions — Store common spelling variations and Swahili/English paraphrases as retrieval aliases. Link the
+alias to the canonical TEKU concept 'joining instructions'.
+registration — Store common spelling variations and Swahili/English paraphrases as retrieval aliases. Link the alias to
+the canonical TEKU concept 'registration'.
+orientation — Store common spelling variations and Swahili/English paraphrases as retrieval aliases. Link the alias to
+the canonical TEKU concept 'orientation'.
+tuition — Store common spelling variations and Swahili/English paraphrases as retrieval aliases. Link the alias to the
+canonical TEKU concept 'tuition'.
+instalment — Store common spelling variations and Swahili/English paraphrases as retrieval aliases. Link the alias to
+the canonical TEKU concept 'instalment'.
+control number — Store common spelling variations and Swahili/English paraphrases as retrieval aliases. Link the alias
+to the canonical TEKU concept 'control number'.
+TEKUSO — Store common spelling variations and Swahili/English paraphrases as retrieval aliases. Link the alias to the
+canonical TEKU concept 'TEKUSO'.
+NHIF — Store common spelling variations and Swahili/English paraphrases as retrieval aliases. Link the alias to the
+canonical TEKU concept 'NHIF'.
+BSc Computer Science — Store common spelling variations and Swahili/English paraphrases as retrieval aliases. Link
+the alias to the canonical TEKU concept 'BSc Computer Science'.
+BSc with Education — Store common spelling variations and Swahili/English paraphrases as retrieval aliases. Link the
+alias to the canonical TEKU concept 'BSc with Education'.
+BSc Environmental Science — Store common spelling variations and Swahili/English paraphrases as retrieval aliases.
+Link the alias to the canonical TEKU concept 'BSc Environmental Science'.
+BHRM — Store common spelling variations and Swahili/English paraphrases as retrieval aliases. Link the alias to the
+canonical TEKU concept 'BHRM'.
+BA Economics — Store common spelling variations and Swahili/English paraphrases as retrieval aliases. Link the alias
+to the canonical TEKU concept 'BA Economics'.
+BA Education — Store common spelling variations and Swahili/English paraphrases as retrieval aliases. Link the alias to
+the canonical TEKU concept 'BA Education'.
+BA Social Work — Store common spelling variations and Swahili/English paraphrases as retrieval aliases. Link the alias
+to the canonical TEKU concept 'BA Social Work'.
+BA Community Development — Store common spelling variations and Swahili/English paraphrases as retrieval aliases.
+Link the alias to the canonical TEKU concept 'BA Community Development'.
+
+===== PAGE 110 =====
+
+TEKU AI Assistant — Master Knowledge Book • Project reference
+Page 110
+Bachelor of Divinity — Store common spelling variations and Swahili/English paraphrases as retrieval aliases. Link the
+alias to the canonical TEKU concept 'Bachelor of Divinity'.
+Diploma in Theology — Store common spelling variations and Swahili/English paraphrases as retrieval aliases. Link the
+alias to the canonical TEKU concept 'Diploma in Theology'.
+PGDE — Store common spelling variations and Swahili/English paraphrases as retrieval aliases. Link the alias to the
+canonical TEKU concept 'PGDE'.
+Master of Education — Store common spelling variations and Swahili/English paraphrases as retrieval aliases. Link the
+alias to the canonical TEKU concept 'Master of Education'.
+Master of Theology — Store common spelling variations and Swahili/English paraphrases as retrieval aliases. Link the
+alias to the canonical TEKU concept 'Master of Theology'.
+PhD Theology — Store common spelling variations and Swahili/English paraphrases as retrieval aliases. Link the alias
+to the canonical TEKU concept 'PhD Theology'.
+library — Store common spelling variations and Swahili/English paraphrases as retrieval aliases. Link the alias to the
+canonical TEKU concept 'library'.
+TAIS — Store common spelling variations and Swahili/English paraphrases as retrieval aliases. Link the alias to the
+canonical TEKU concept 'TAIS'.
+TOAS — Store common spelling variations and Swahili/English paraphrases as retrieval aliases. Link the alias to the
+canonical TEKU concept 'TOAS'.
+IT Unit — Store common spelling variations and Swahili/English paraphrases as retrieval aliases. Link the alias to the
+canonical TEKU concept 'IT Unit'.
+Quality Assurance — Store common spelling variations and Swahili/English paraphrases as retrieval aliases. Link the
+alias to the canonical TEKU concept 'Quality Assurance'.
+student advisor — Store common spelling variations and Swahili/English paraphrases as retrieval aliases. Link the alias
+to the canonical TEKU concept 'student advisor'.
+hostel — Store common spelling variations and Swahili/English paraphrases as retrieval aliases. Link the alias to the
+canonical TEKU concept 'hostel'.
+academic calendar — Store common spelling variations and Swahili/English paraphrases as retrieval aliases. Link the
+alias to the canonical TEKU concept 'academic calendar'.
+examination — Store common spelling variations and Swahili/English paraphrases as retrieval aliases. Link the alias to
+the canonical TEKU concept 'examination'.
+results — Store common spelling variations and Swahili/English paraphrases as retrieval aliases. Link the alias to the
+canonical TEKU concept 'results'.
+privacy — Store common spelling variations and Swahili/English paraphrases as retrieval aliases. Link the alias to the
+canonical TEKU concept 'privacy'.
+escalation — Store common spelling variations and Swahili/English paraphrases as retrieval aliases. Link the alias to the
+canonical TEKU concept 'escalation'.
+RAG — Store common spelling variations and Swahili/English paraphrases as retrieval aliases. Link the alias to the
+canonical TEKU concept 'RAG'.
+embedding — Store common spelling variations and Swahili/English paraphrases as retrieval aliases. Link the alias to
+the canonical TEKU concept 'embedding'.
+vector database — Store common spelling variations and Swahili/English paraphrases as retrieval aliases. Link the alias
+to the canonical TEKU concept 'vector database'.
+Gemini API — Store common spelling variations and Swahili/English paraphrases as retrieval aliases. Link the alias to
+the canonical TEKU concept 'Gemini API'.
+
+===== PAGE 111 =====
+
+TEKU AI Assistant — Master Knowledge Book • Project reference
+Page 111
+Streamlit — Store common spelling variations and Swahili/English paraphrases as retrieval aliases. Link the alias to the
+canonical TEKU concept 'Streamlit'.
