@@ -80,10 +80,10 @@ def main(page: ft.Page):
         "surface": "#161B22",
         "surface2": "#21262D",
         "text": "#F0F6FC",
-        "muted": "#8B949E",
+        "muted": "#507DB1",
         "border": "#30363D",
         "green": "#20C997",
-        "green_dark": "#12A879",
+        "green_dark": "#04B27B",
         "assistant_bubble": "#161B22",
     }
 
@@ -248,7 +248,7 @@ def main(page: ft.Page):
                     ft.Container(height=18),
 
                     ft.Text(
-                        "Karibu TEKU Assistant 👋",
+                        "TEKU Assistant ",
                         size=30,
                         weight=ft.FontWeight.BOLD,
                         color=C("text"),
@@ -258,7 +258,7 @@ def main(page: ft.Page):
                     ft.Container(height=8),
 
                     ft.Text(
-                        "Nipo hapa kukusaidia. Andika ujumbe wako kuanza.",
+                        " Wataka kujua nini kuhusu Teku?. Niulize Nitakusaidia.",
                         size=14,
                         color=C("muted"),
                         text_align=ft.TextAlign.CENTER,
@@ -326,7 +326,7 @@ def main(page: ft.Page):
             source_controls.append(
                 ft.Container(
                  content=ft.Text(
-                    "📚 Vyanzo vya TEKU",
+                    "Vyanzo vya TEKU",
                     size=11,
                     weight=ft.FontWeight.BOLD,
                     color=C("muted"),
@@ -439,9 +439,9 @@ def main(page: ft.Page):
                     content=ft.Row(
                         spacing=4,
                         controls=[
-                            ft.Text("●", color=C("muted")),
-                            ft.Text("●", color=C("muted")),
-                            ft.Text("●", color=C("muted")),
+                            ft.Text("", color=C("muted")),
+                            ft.Text("", color=C("muted")),
+                            ft.Text("", color=C("muted")),
                         ],
                     ),
                 ),
@@ -864,8 +864,7 @@ def main(page: ft.Page):
                 selected_upload["path"] = audio_path
                 selected_upload["name"] = Path(audio_path).name
                 message_input.value = (
-                    "🎤 Sauti imerekodiwa. "
-                    "Andika swali kuhusu recording kisha bonyeza Send."
+                    " Sauti imerekodiwa. "
                 )
                 page.update()
                 show_snack("Sauti imehifadhiwa, lakini transcription haikupatikana.")
