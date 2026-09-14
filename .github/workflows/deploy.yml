@@ -35,7 +35,7 @@ jobs:
 
       - name: Build Flet Web App
         run: |
-          flet build web
+          flet build web --yes
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
