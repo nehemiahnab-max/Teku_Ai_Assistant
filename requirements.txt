@@ -5,3 +5,5 @@ numpy
 PyMuPDF
 sounddevice
 soundfile
+uvicorn
+Pillow

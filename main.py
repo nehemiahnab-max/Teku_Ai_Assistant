@@ -35,10 +35,10 @@ from database.chat_database import ChatDatabase
 BASE_DIR = Path(__file__).resolve().parent
 load_dotenv(BASE_DIR / ".env")
 
-LOGO = "assets/icons/teku_logo.jpg"
-PROFILE = "assets/icons/images3.jpeg"
-BACKGROUND = "assets/images/teku_background.jpeg"
-BUILDING = "assets/images/teku_building.jpeg"
+LOGO = "icons/teku_logo.jpg"
+PROFILE = "icons/images3.jpeg"
+BACKGROUND = "images/teku_background.jpeg"
+BUILDING = "images/teku_building.jpeg"
 
 
 # ============================================================
@@ -78,13 +78,13 @@ def main(page: ft.Page):
     DARK = {
         "background": "#0D1117",
         "surface": "#161B22",
-        "surface2": "#21262D",
+        "surface2": "#494D52",
         "text": "#F0F6FC",
         "muted": "#507DB1",
-        "border": "#30363D",
+        "border": "#747678",
         "green": "#20C997",
         "green_dark": "#04B27B",
-        "assistant_bubble": "#161B22",
+        "assistant_bubble": "#626568",
     }
 
     def C(name):
@@ -282,10 +282,7 @@ def main(page: ft.Page):
             db.add_message(current_chat["id"], "user", text)
 
         bubble = ft.Container(
-            padding=ft.Padding.symmetric(
-                horizontal=16,
-                vertical=12,
-            ),
+            padding=ft.Padding(left=16, right=16, top=12, bottom=12),
             border_radius=18,
             bgcolor=C("green"),
             content=ft.Text(
@@ -319,7 +316,7 @@ def main(page: ft.Page):
         if sources is None:
             sources = []
 
-            source_controls = []
+        source_controls = []
 
         if sources:
 
@@ -382,10 +379,7 @@ def main(page: ft.Page):
 
         bubble = ft.Container(
             content=message_content,
-            padding=ft.Padding.symmetric(
-                 horizontal=14,
-                vertical=10,
-            ),
+            padding=ft.Padding(left=14, right=14, top=10, bottom=10),
             border_radius=16,
             bgcolor=C("assistant_bubble"),
         )
@@ -523,6 +517,8 @@ def main(page: ft.Page):
             print("=" * 70)
 
         except Exception as error:
+            import traceback
+
             if typing in chat_list.controls:
                 chat_list.controls.remove(typing)
 
@@ -532,8 +528,14 @@ def main(page: ft.Page):
                 "Tafadhali jaribu tena."
             )
 
-            print("\nTEKU ASSISTANT ERROR:")
-            print(error)
+            print("\n" + "=" * 70)
+            print("TEKU ASSISTANT ERROR")
+            print("=" * 70)
+            print(f"Error type: {type(error).__name__}")
+            print(f"Error message: {error}")
+            print("\nFULL TRACEBACK:")
+            traceback.print_exc()
+            print("=" * 70, flush=True)
 
         page.update()
 
@@ -623,6 +625,9 @@ def main(page: ft.Page):
     def delete_all_history(e=None):
         def confirm_delete(ev):
             db.delete_all_chats()
+
+            chat_history.clear()
+            chat_history.extend(db.get_chats())
 
             current_chat["id"] = None
             current_chat["title"] = "New Chat"
@@ -1157,6 +1162,17 @@ def main(page: ft.Page):
                                             on_click=clear_current_chat,
                                         ),
                                         ft.PopupMenuItem(
+                                            content=ft.Text("Delete Current Chat"),
+                                            icon=ft.Icons.DELETE_OUTLINE,
+                                            on_click=delete_current_chat,
+                                        ),
+                                        ft.PopupMenuItem(
+                                            content=ft.Text("Delete All History"),
+                                            icon=ft.Icons.DELETE_SWEEP,
+                                            on_click=delete_all_history,
+                                        ),
+                                        ft.PopupMenuItem(),
+                                        ft.PopupMenuItem(
                                             content=ft.Text("Settings"),
                                             icon=ft.Icons.SETTINGS,
                                             on_click=show_settings,
@@ -1190,9 +1206,7 @@ def main(page: ft.Page):
                     C("border"),
                 )
             ),
-            padding=ft.Padding.symmetric(
-                horizontal=22,
-            ),
+            padding=ft.Padding(left=22, right=22, top=0, bottom=0),
             content=ft.Row(
                 controls=[
 
@@ -1238,6 +1252,17 @@ def main(page: ft.Page):
                                 on_click=clear_current_chat,
                             ),
                             ft.PopupMenuItem(
+                                content=ft.Text("Delete Current Chat"),
+                                icon=ft.Icons.DELETE_OUTLINE,
+                                on_click=delete_current_chat,
+                            ),
+                            ft.PopupMenuItem(
+                                content=ft.Text("Delete All History"),
+                                icon=ft.Icons.DELETE_SWEEP,
+                                on_click=delete_all_history,
+                            ),
+                            ft.PopupMenuItem(),
+                            ft.PopupMenuItem(
                                 content=ft.Text("Settings"),
                                 icon=ft.Icons.SETTINGS,
                                 on_click=show_settings,
@@ -1260,16 +1285,10 @@ def main(page: ft.Page):
     def composer():
 
         return ft.Container(
-            padding=ft.Padding.symmetric(
-                horizontal=20,
-                vertical=12,
-            ),
+            padding=ft.Padding(left=20, right=20, top=12, bottom=12),
             bgcolor=C("surface"),
             content=ft.Container(
-                padding=ft.Padding.symmetric(
-                    horizontal=8,
-                    vertical=4,
-                ),
+                padding=ft.Padding(left=8, right=8, top=4, bottom=4),
                 border_radius=22,
                 bgcolor=C("surface2"),
                 border=ft.Border.all(
@@ -1381,10 +1400,15 @@ def main(page: ft.Page):
 
     build_app()
 
-
 # ============================================================
 # RUN
 # ============================================================
 
 if __name__ == "__main__":
-    ft.run(main)
+    ft.run(main, assets_dir="assets")
+else:
+    app = ft.run(
+        main,
+        export_asgi_app=True,
+        assets_dir="assets",
+    )
